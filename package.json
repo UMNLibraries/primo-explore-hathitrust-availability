@@ -13,8 +13,6 @@
   "author": "Jeff Peterson <gpeterso@umn.edu>",
   "license": "UNLICENSED",
   "private": true,
-  {
-    "dependencies":
+  "dependencies": 
     { "cpx": ">=1.0" }
-  }
 }
