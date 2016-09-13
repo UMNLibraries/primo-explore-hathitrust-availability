@@ -15,6 +15,6 @@
   "private": true,
   {
     "dependencies":
-    { "cpx": ">=1.0" },
+    { "cpx": ">=1.0" }
   }
 }
