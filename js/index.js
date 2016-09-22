@@ -3,6 +3,7 @@ var app = angular.module('viewCustom', []);
 app.factory('hathiTrust', ['$http', '$q', function($http, $q) { 
   var svc = {};
   var hathiTrustBaseUrl = "https://catalog.hathitrust.org/api/volumes/brief/json/";
+
   svc.findFullViewRecord = function(ids) {
     var hathiTrustFullTextRecord = false;
     var deferred = $q.defer();
@@ -21,9 +22,10 @@ app.factory('hathiTrust', ['$http', '$q', function($http, $q) {
         }
         deferred.resolve(hathiTrustFullTextRecord);
       });
-    }
+    } else { deferred.resolve(false); }
     return deferred.promise;
   };
+
   return svc;
 }]);
 
