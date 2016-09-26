@@ -31,8 +31,15 @@ app.factory('hathiTrust', ['$http', '$q', function($http, $q) {
 
 app.controller('prmSearchResultAvailabilityLineAfterController', ['hathiTrust', function(hathiTrust) {
   var ctrl = this;
-  var hathiTrustIds = (this.parentCtrl.result.pnx.addata.oclcid || []).map(function(id){return "oclc:"+id});
-  hathiTrust.findFullViewRecord(hathiTrustIds).then(function(res) {ctrl.hathiTrustFullText = res});
+	var availableOnline = this.parentCtrl.result.delivery.GetIt1.some(function(g) {
+													return g.links.some(function(l) {
+														return l.isLinktoOnline})});
+
+	if (!availableOnline) {
+  	var hathiTrustIds = (this.parentCtrl.result.pnx.addata.oclcid || []).map(function(id){return "oclc:"+id});
+ 		hathiTrust.findFullViewRecord(hathiTrustIds).then(function(res) {ctrl.hathiTrustFullText = res});
+	}
+
 }]);
 
 app.component('prmSearchResultAvailabilityLineAfter', {

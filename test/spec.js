@@ -63,16 +63,13 @@ xdescribe('prmSearchResultAvailabilityLineAfter', function(){
     //TODO: set up a mock HT service
     scope = $rootScope.$new();
     scope.ctrl = {};
-    scope.ctrl.result = getJSONFixture('result.json');
+    scope.ctrl.result = getJSONFixture('print_result.json');
     element = angular.element('<prm-search-result-availability-line-after parent-ctrl="ctrl" class="ng-isolate-scope"></prm-search-result-availability-line-after>');
     element = $compile(element)(scope);
     scope.$apply();
   }));
 
   it('should exist', function(){
-    //console.log(scope);
-    console.log(scope.ctrl);
-
     expect(element).toBeDefined();
   });
 });
@@ -89,7 +86,7 @@ describe('prmSearchResultAvailabilityLineAfterController', function(){
     $q = $injector.get('$q');
     expectedIds = ["oclc:1586310", "oclc:7417753", "oclc:47076528"];
     parentCtrl = {};
-    parentCtrl.result = getJSONFixture('result.json');
+    parentCtrl.result = getJSONFixture('print_result.json');
   }));
 
   it('should pass the OCLC numbers to the hathiTrust service', function(){
@@ -109,8 +106,9 @@ describe('prmSearchResultAvailabilityLineAfterController', function(){
     expect(ctrl.hathiTrustFullText).toBe(link);
   });
 
-  xit('should not call the hathTrust service for online journals', function(){
-   spyOn(hathiTrust, 'findFullViewRecord').and.
+  it('should not call the hathTrust service for online journals', function(){
+    parentCtrl.result = getJSONFixture('online_result.json');
+    spyOn(hathiTrust, 'findFullViewRecord').and.
       returnValue({then: function(callback){ return callback(true)}});
     ctrl = $componentController('prmSearchResultAvailabilityLineAfter', null, 
         {parentCtrl: parentCtrl, hathiTrust: hathiTrust});
