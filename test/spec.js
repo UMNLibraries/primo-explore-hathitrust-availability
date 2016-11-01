@@ -1,4 +1,4 @@
-describe('hathiTrust', function() {
+describe('hathiTrust service', function() {
   var hathiTrust, $httpBackend, $timeout;
 
   beforeEach(angular.mock.module('viewCustom'));
@@ -74,9 +74,9 @@ xdescribe('prmSearchResultAvailabilityLineAfter', function(){
   });
 });
 
-describe('prmSearchResultAvailabilityLineAfterController', function(){
+describe('hathiTrustAvailabilityController', function(){
   beforeEach(module('viewCustom'));
-  var $componentController, $rootScope, $q, hathiTrust, ctrl, parentCtrl, expectedIds;
+  var $componentController, $rootScope, $q, hathiTrust, ctrl, parentCtrl, expectedIds, bindings;
 
   beforeEach(inject(function(_$componentController_, _$rootScope_, _hathiTrust_, $injector){
     $componentController = _$componentController_;
@@ -87,13 +87,16 @@ describe('prmSearchResultAvailabilityLineAfterController', function(){
     expectedIds = ["oclc:1586310", "oclc:7417753", "oclc:47076528"];
     parentCtrl = {};
     parentCtrl.result = getJSONFixture('print_result.json');
+    bindings = {hathiTrust: hathiTrust, 
+                parent: {parentCtrl: parentCtrl}};
+
   }));
 
   it('should pass the OCLC numbers to the hathiTrust service', function(){
     spyOn(hathiTrust, 'findFullViewRecord').and.
       returnValue({then: function(callback){ return callback(true)}});
-    ctrl = $componentController('prmSearchResultAvailabilityLineAfter', null, 
-        {parentCtrl: parentCtrl, hathiTrust: hathiTrust});
+    ctrl = $componentController('hathiTrustAvailability', null, bindings);
+    ctrl.$onInit();
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalledWith(expectedIds);
   });
 
@@ -101,19 +104,30 @@ describe('prmSearchResultAvailabilityLineAfterController', function(){
     var link = "http://example.com";
     spyOn(hathiTrust, 'findFullViewRecord').and.
       returnValue({then: function(callback){ return callback(link)}});
-    ctrl = $componentController('prmSearchResultAvailabilityLineAfter', null, 
-        {parentCtrl: parentCtrl, hathiTrust: hathiTrust});
+    ctrl = $componentController('hathiTrustAvailability', null, bindings);
+    ctrl.$onInit();
     expect(ctrl.hathiTrustFullText).toBe(link);
   });
 
-  it('should not call the hathTrust service for online journals', function(){
+  it('should not call the hathTrust service for online resoureces when disabled', function(){
     parentCtrl.result = getJSONFixture('online_result.json');
     spyOn(hathiTrust, 'findFullViewRecord').and.
       returnValue({then: function(callback){ return callback(true)}});
-    ctrl = $componentController('prmSearchResultAvailabilityLineAfter', null, 
-        {parentCtrl: parentCtrl, hathiTrust: hathiTrust});
 
+    bindings.hideOnline = true;
+
+    ctrl = $componentController('hathiTrustAvailability', null, bindings);
+    ctrl.$onInit();
     expect(hathiTrust.findFullViewRecord).not.toHaveBeenCalled();
+   });
+
+  it('should not call the hathTrust service for online resoureces by default', function(){
+    parentCtrl.result = getJSONFixture('online_result.json');
+    spyOn(hathiTrust, 'findFullViewRecord').and.
+      returnValue({then: function(callback){ return callback(true)}});
+    ctrl = $componentController('hathiTrustAvailability', null, bindings);
+    ctrl.$onInit();
+    expect(hathiTrust.findFullViewRecord).toHaveBeenCalled();
    });
 
 
