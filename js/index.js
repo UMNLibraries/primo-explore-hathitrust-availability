@@ -1,4 +1,4 @@
-var app = angular.module('viewCustom', []);
+var app = app || angular.module('viewCustom', []);
 
 app.factory('hathiTrust', ['$http', '$q', function ($http, $q) {
   var svc = {};
