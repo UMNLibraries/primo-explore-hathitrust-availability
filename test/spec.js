@@ -54,26 +54,6 @@ describe('hathiTrust service', function() {
 
 });
     
-xdescribe('prmSearchResultAvailabilityLineAfter', function(){
-  beforeEach(angular.mock.module('viewCustom'));
-
-  var element, scope, $hathiTrust; 
-
-  beforeEach(inject(function($rootScope, $compile){
-    //TODO: set up a mock HT service
-    scope = $rootScope.$new();
-    scope.ctrl = {};
-    scope.ctrl.result = getJSONFixture('print_result.json');
-    element = angular.element('<prm-search-result-availability-line-after parent-ctrl="ctrl" class="ng-isolate-scope"></prm-search-result-availability-line-after>');
-    element = $compile(element)(scope);
-    scope.$apply();
-  }));
-
-  it('should exist', function(){
-    expect(element).toBeDefined();
-  });
-});
-
 describe('hathiTrustAvailabilityController', function(){
   beforeEach(module('viewCustom'));
   var $componentController, $rootScope, $q, hathiTrust, ctrl, parentCtrl, expectedIds, bindings;
@@ -106,7 +86,7 @@ describe('hathiTrustAvailabilityController', function(){
       returnValue({then: function(callback){ return callback(link)}});
     ctrl = $componentController('hathiTrustAvailability', null, bindings);
     ctrl.$onInit();
-    expect(ctrl.hathiTrustFullText).toBe(link);
+    expect(ctrl.fullTextLink).toBe(link);
   });
 
   it('should not call the hathTrust service for online resoureces when disabled', function(){
@@ -129,11 +109,5 @@ describe('hathiTrustAvailabilityController', function(){
     ctrl.$onInit();
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalled();
    });
-
-
 });
-
-
-  
-      
 

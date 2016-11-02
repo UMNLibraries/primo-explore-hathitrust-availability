@@ -27,32 +27,36 @@ app.factory('hathiTrust', ['$http', '$q', function ($http, $q) {
     }
     return deferred.promise;
   };
-
   return svc;
 }]);
 
 app.controller('hathiTrustAvailabilityController', ['hathiTrust', function (hathiTrust) {
-  this.$onInit = function() {
-    var ctrl = this;
-    this.parentCtrl = this.parent.parentCtrl;
-    var availableOnline; 
-    if (this.hideOnline) {
-      availableOnline = this.parentCtrl.result.delivery.GetIt1.some(function (g) {
-        return g.links.some(function (l) {
-          return l.isLinktoOnline;
-        });
-      });
-    } else {availableOnline = false;}
+  var self = this;
 
-    if (!availableOnline) {
-      var hathiTrustIds = (this.parentCtrl.result.pnx.addata.oclcid || []).map(function (id) {
-        return "oclc:" + id;
-      });
-      hathiTrust.findFullViewRecord(hathiTrustIds).then(function (res) {
-        ctrl.hathiTrustFullText = res;
-      });
+  self.$onInit = function() {
+    self.parentCtrl = this.parent.parentCtrl;
+    if ( !(isOnline() && self.hideOnline) ) {
+      updateHathiTrustAvailability();
     }
   }
+
+  var isOnline = function() {
+    return self.parentCtrl.result.delivery.GetIt1.some(function (g) {
+      return g.links.some(function (l) {
+        return l.isLinktoOnline;
+      });
+    });
+  }
+
+  var updateHathiTrustAvailability = function() {
+    var hathiTrustIds = (self.parentCtrl.result.pnx.addata.oclcid || []).map(function (id) {
+      return "oclc:" + id;
+    });
+    hathiTrust.findFullViewRecord(hathiTrustIds).then(function (res) {
+      self.fullTextLink = res;
+    });
+  }
+
 }]);
 
 app.component('hathiTrustAvailability', {
@@ -61,6 +65,12 @@ app.component('hathiTrustAvailability', {
   },
   bindings: { hideOnline: '<' },
   controller: 'hathiTrustAvailabilityController',
-  template: '<span class="umnHathiTrustLink"><a target="_blank" ng-if="$ctrl.hathiTrustFullText" ng-href="{{$ctrl.hathiTrustFullText}}">Full Text Available at HathiTrust<prm-icon external-link="" icon-type="svg" svg-icon-set="primo-ui" icon-definition="open-in-new"></prm-icon></a></span>'
+  template: '<span class="umnHathiTrustLink">\
+              <a target="_blank" ng-if="$ctrl.fullTextLink" ng-href="{{$ctrl.fullTextLink}}">\
+                Full Text Available at HathiTrust\
+                <prm-icon external-link="" icon-type="svg" svg-icon-set="primo-ui" icon-definition="open-in-new"></prm-icon>\
+              </a>\
+            </span>'
+
 });
 
