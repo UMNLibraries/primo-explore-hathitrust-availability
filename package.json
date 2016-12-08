@@ -1,6 +1,6 @@
 {
   "name": "primo-explore-hathitrust-availability",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Adds HathiTrust links to Primo search results",
   "scripts": {
     "test": "karma start --singleRun",

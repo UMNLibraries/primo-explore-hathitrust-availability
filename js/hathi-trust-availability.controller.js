@@ -3,10 +3,15 @@ app.controller('hathiTrustAvailabilityController', ['hathiTrust', function (hath
 
   self.$onInit = function() {
     self.parentCtrl = this.parent.parentCtrl;
+    setDefaults();
     if ( !(isOnline() && self.hideOnline) ) {
       updateHathiTrustAvailability();
     }  
   }  
+
+  var setDefaults = function() {
+    if (!self.msg) self.msg = 'Full Text Available at HathiTrust';
+  }
 
   var isOnline = function() {
     return self.parentCtrl.result.delivery.GetIt1.some(function (g) {

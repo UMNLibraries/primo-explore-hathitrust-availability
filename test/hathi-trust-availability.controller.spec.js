@@ -46,13 +46,28 @@ describe('hathiTrustAvailabilityController', function(){
     expect(hathiTrust.findFullViewRecord).not.toHaveBeenCalled();
    });
 
-  it('should not call the hathTrust service for online resoureces by default', function(){
+  it('should call the hathTrust service for online resoureces by default', function(){
     parentCtrl.result = getJSONFixture('online_result.json');
     spyOn(hathiTrust, 'findFullViewRecord').and.
       returnValue({then: function(callback){ return callback(true)}});
     ctrl = $componentController('hathiTrustAvailability', null, bindings);
     ctrl.$onInit();
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalled();
-   });
+  });
+
+  it('should accept a custom availability message', function(){
+    var myMsg = "FULL TEXT FROM HATHITRUST, YAY!";
+    bindings.msg = myMsg;
+    ctrl = $componentController('hathiTrustAvailability', null, bindings);
+    ctrl.$onInit();
+    expect(ctrl.msg).toBe(myMsg);
+  });
+
+  it('should use a default availability message when not provided', function(){
+    var expectedDefaultMsg = 'Full Text Available at HathiTrust';
+    ctrl = $componentController('hathiTrustAvailability', null, bindings);
+    ctrl.$onInit();
+    expect(ctrl.msg).toBe(expectedDefaultMsg);
+  });
 
 });
