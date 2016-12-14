@@ -22,7 +22,6 @@ module.exports = function(config) {
       './test/hathi-trust-availability.controller.spec.js',
       './js/custom.module.js', 
       './js/hathi-trust.service.js', 
-      './js/hathi-trust-availability.controller.js', 
       './js/hathi-trust-availability.component.js', 
 
       { pattern: 'test/fixtures/*.json', watched: true, served: true, included: false }
