@@ -3,6 +3,13 @@ describe('hathiTrustAvailabilityController', function(){
   beforeEach(module('hathiTrustAvailability'));
   var $componentController, $rootScope, $q, hathiTrust, ctrl, prmSearchResultAvailabilityLine, expectedIds, bindings;
 
+  var myIconSrc = "my/icon/file.svg";
+  beforeEach(function() {
+    module(function($provide) {
+      $provide.value('iconSrc', myIconSrc);
+    });
+  });
+
   beforeEach(inject(function(_$componentController_, _$rootScope_, _hathiTrust_, $injector){
     $componentController = _$componentController_;
     $rootScope = _$rootScope_;
@@ -68,6 +75,12 @@ describe('hathiTrustAvailabilityController', function(){
     ctrl = $componentController('hathiTrustAvailability', null, bindings);
     ctrl.$onInit();
     expect(ctrl.msg).toBe(expectedDefaultMsg);
+  });
+
+  it('should provide and overridable icon source', function() {
+    ctrl = $componentController('hathiTrustAvailability', null, bindings);
+    ctrl.$onInit();
+    expect(ctrl.iconSrc).toBe(myIconSrc);
   });
 
 });
