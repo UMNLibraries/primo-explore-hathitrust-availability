@@ -41,9 +41,9 @@ angular.module('hathiTrustAvailability')
     msg: '@?'
   },
   controller: 'hathiTrustAvailabilityController',
-  template: '<span class="umnHathiTrustLink">\
-              <a target="_blank" ng-if="$ctrl.fullTextLink" ng-href="{{$ctrl.fullTextLink}}">\
+  template: '<span ng-if="$ctrl.fullTextLink" class="umnHathiTrustLink">\
               <md-icon md-svg-src="{{$ctrl.iconSrc}}" aria-label="HathiTrust"></md-icon>\
+              <a target="_blank" ng-href="{{$ctrl.fullTextLink}}">\
               {{ ::$ctrl.msg }}\
                 <prm-icon external-link="" icon-type="svg" svg-icon-set="primo-ui" icon-definition="open-in-new"></prm-icon>\
               </a>\
