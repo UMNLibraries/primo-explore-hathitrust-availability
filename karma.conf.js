@@ -20,7 +20,7 @@ module.exports = function(config) {
       './node_modules/angular-mocks/angular-mocks.js',
       './test/hathi-trust.service.spec.js',
       './test/hathi-trust-availability.controller.spec.js',
-      './js/custom.module.js', 
+      './js/hathi-trust-availability.module.js', 
       './js/hathi-trust.service.js', 
       './js/hathi-trust-availability.component.js', 
 

@@ -1,4 +1,5 @@
-app.controller('hathiTrustAvailabilityController', ['hathiTrust', function (hathiTrust) {
+angular.module('hathiTrustAvailability')
+.controller('hathiTrustAvailabilityController', ['hathiTrust', function (hathiTrust) {
   var self = this;
 
   self.$onInit = function() {
@@ -30,9 +31,8 @@ app.controller('hathiTrustAvailabilityController', ['hathiTrust', function (hath
     });
   }  
 
-}]);
-
-app.component('hathiTrustAvailability', {
+}])
+.component('hathiTrustAvailability', {
   require: {
     parent: '^prmSearchResultAvailabilityLineAfter'
   },

@@ -1,7 +1,8 @@
 {
   "name": "primo-explore-hathitrust-availability",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "Adds HathiTrust links to Primo search results",
+  "main": "index.js",
   "scripts": {
     "test": "karma start --singleRun",
     "postinstall": "cpx img/* ../../img/"

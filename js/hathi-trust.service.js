@@ -1,4 +1,4 @@
-app.factory('hathiTrust', ['$http', '$q', function ($http, $q) {
+angular.module('hathiTrustAvailability').factory('hathiTrust', ['$http', '$q', function ($http, $q) {
   var svc = {};
   var hathiTrustBaseUrl = "https://catalog.hathitrust.org/api/volumes/brief/json/";
 

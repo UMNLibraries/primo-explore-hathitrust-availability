@@ -1,6 +1,6 @@
 describe('hathiTrustAvailabilityController', function(){
 
-  beforeEach(module('viewCustom'));
+  beforeEach(module('hathiTrustAvailability'));
   var $componentController, $rootScope, $q, hathiTrust, ctrl, parentCtrl, expectedIds, bindings;
 
   beforeEach(inject(function(_$componentController_, _$rootScope_, _hathiTrust_, $injector){
