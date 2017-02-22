@@ -1,7 +1,7 @@
 describe('hathiTrustAvailabilityController', function(){
 
   beforeEach(module('hathiTrustAvailability'));
-  var $componentController, $rootScope, $q, hathiTrust, ctrl, parentCtrl, expectedIds, bindings;
+  var $componentController, $rootScope, $q, hathiTrust, ctrl, prmSearchResultAvailabilityLine, expectedIds, bindings;
 
   beforeEach(inject(function(_$componentController_, _$rootScope_, _hathiTrust_, $injector){
     $componentController = _$componentController_;
@@ -10,10 +10,10 @@ describe('hathiTrustAvailabilityController', function(){
     $timeout = $injector.get('$timeout');
     $q = $injector.get('$q');
     expectedIds = ["oclc:1586310", "oclc:7417753", "oclc:47076528"];
-    parentCtrl = {};
-    parentCtrl.result = getJSONFixture('print_result.json');
+    prmSearchResultAvailabilityLine = {};
+    prmSearchResultAvailabilityLine.result = getJSONFixture('print_result.json');
     bindings = {hathiTrust: hathiTrust, 
-                parent: {parentCtrl: parentCtrl}};
+                prmSearchResultAvailabilityLine: prmSearchResultAvailabilityLine};
 
   }));
 
@@ -35,7 +35,7 @@ describe('hathiTrustAvailabilityController', function(){
   });
 
   it('should not call the hathTrust service for online resoureces when disabled', function(){
-    parentCtrl.result = getJSONFixture('online_result.json');
+    prmSearchResultAvailabilityLine.result = getJSONFixture('online_result.json');
     spyOn(hathiTrust, 'findFullViewRecord').and.
       returnValue({then: function(callback){ return callback(true)}});
 
@@ -47,7 +47,7 @@ describe('hathiTrustAvailabilityController', function(){
    });
 
   it('should call the hathTrust service for online resoureces by default', function(){
-    parentCtrl.result = getJSONFixture('online_result.json');
+    prmSearchResultAvailabilityLine.result = getJSONFixture('online_result.json');
     spyOn(hathiTrust, 'findFullViewRecord').and.
       returnValue({then: function(callback){ return callback(true)}});
     ctrl = $componentController('hathiTrustAvailability', null, bindings);

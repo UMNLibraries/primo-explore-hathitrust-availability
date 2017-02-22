@@ -3,7 +3,6 @@ angular.module('hathiTrustAvailability')
   var self = this;
 
   self.$onInit = function() {
-    self.parentCtrl = this.parent.parentCtrl;
     setDefaults();
     if ( !(isOnline() && self.hideOnline) ) {
       updateHathiTrustAvailability();
@@ -15,7 +14,7 @@ angular.module('hathiTrustAvailability')
   }  
 
   var isOnline = function() {
-    return self.parentCtrl.result.delivery.GetIt1.some(function (g) {
+    return self.prmSearchResultAvailabilityLine.result.delivery.GetIt1.some(function (g) {
       return g.links.some(function (l) {
         return l.isLinktoOnline;
       });
@@ -23,7 +22,7 @@ angular.module('hathiTrustAvailability')
   }  
 
   var updateHathiTrustAvailability = function() {
-    var hathiTrustIds = (self.parentCtrl.result.pnx.addata.oclcid || []).map(function (id) {
+    var hathiTrustIds = (self.prmSearchResultAvailabilityLine.result.pnx.addata.oclcid || []).map(function (id) {
       return "oclc:" + id;
     });
     hathiTrust.findFullViewRecord(hathiTrustIds).then(function (res) {
@@ -34,7 +33,7 @@ angular.module('hathiTrustAvailability')
 }])
 .component('hathiTrustAvailability', {
   require: {
-    parent: '^prmSearchResultAvailabilityLineAfter'
+    prmSearchResultAvailabilityLine: '^prmSearchResultAvailabilityLine'
   },
   bindings: { 
     hideOnline: '<', 
