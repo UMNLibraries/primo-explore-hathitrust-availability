@@ -23,7 +23,7 @@ angular.module('hathiTrustAvailability').factory('hathiTrust', ['$http', '$q', f
 
     if (ids.length) {
       var hathiTrustLookupUrl = hathiTrustBaseUrl + ids.join('|');
-      $http.jsonp(hathiTrustLookupUrl, { cache: true , jsonpCallbackParam: 'callback', headers:{"X-From-ExL-API-Gateway": undefined}})
+      $http.jsonp(hathiTrustLookupUrl, { cache: true , jsonpCallbackParam: 'callback'})
         .then(handleResponse)
         .catch(function(e) {console.log(e)});
     } else {
