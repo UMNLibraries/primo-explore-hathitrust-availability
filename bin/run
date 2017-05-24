@@ -1,0 +1,25 @@
+#!/usr/bin/env bash 
+#
+
+VIEW=CENTRAL_PACKAGE
+CUSTOM_DIR="./node_modules/primo-explore-devenv/primo-explore/custom/$VIEW"
+
+if [ ! -d "$CUSTOM_DIR" ]; then 
+  mkdir -p "$CUSTOM_DIR"
+  ln -s "$(pwd)/js" "$CUSTOM_DIR/js"
+  ln -s "$(pwd)/html" "$CUSTOM_DIR/html"
+  ln -s "$(pwd)/css" "$CUSTOM_DIR/css"
+  ln -s "$(pwd)/img" "$CUSTOM_DIR/img"
+fi
+
+if [ ! -d "./node_modules/primo-expore-devenv" ]; then
+npm --prefix ./node_modules/primo-explore-devenv \
+  install ./node_modules/primo-explore-devenv
+fi
+
+cd ./node_modules/primo-explore-devenv/
+
+gulp run \
+  --view "$VIEW" \
+  --proxy 'https://primo-test.lib.umn.edu' \
+  --browserify
