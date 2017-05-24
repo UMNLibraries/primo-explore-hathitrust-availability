@@ -16,6 +16,7 @@ describe('hathiTrust service', function() {
     var url = 'https://catalog.hathitrust.org/api/volumes/brief/json/oclc:3756332?callback=JSON_CALLBACK';
     var expectedFullTextLink = "https://catalog.hathitrust.org/Record/007158726";
     $httpBackend.expectJSONP(url).respond(data);
+    console.log(data);
     hathiTrust.findFullViewRecord(["oclc:3756332"]).
       then(function(res) { expect(res).toBe(expectedFullTextLink)});
     $httpBackend.flush();
