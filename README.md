@@ -15,14 +15,17 @@ When search results are displayed, a record's OCLC numbers are passed to the [Ha
 ![screenshot](screenshots/screenshot.png)
 
 ## Usage
-Once the module is installed in your [customization environment](https://github.com/ExLibrisGroup/primo-explore-devenv), you can add the HathiTrust availability component to the `prmSearchResultAvailabilityLineAfter` component like so: 
+Once the module is installed in your [customization environment](https://github.com/ExLibrisGroup/primo-explore-devenv), `HathiTrustAvailability` as a dependency for your custom module, then add the HathiTrust availability component to the `prmSearchResultAvailabilityLineAfter` component. For example:
 
 ```javascript
-app.component('prmSearchResultAvailabilityLineAfter', { 
-  bindings: { parentCtrl: '<'},
-  template: '<hathi-trust-availability></hathi-trust-availability>'
-});
+var app = angular.module('viewCustom', ['hathiTrustAvailability']);
+
+app.component('prmSearchResultAvailabilityLineAfter', {
+    template: '<hathi-trust-availability></hathi-trust-availability>'
+  });
 ```
+(Note: If you're using the `--browserify` build option, you will need to first import the module with `require('primo-explore-hathitrust-availability);` or `import 'primo-explore-hathitrust-availability';`.) 
+
 The idea here is to allow multiple custom components to be added to the `prmSearchResultAvailabilityLineAfter` rather than attempting to redefine it. 
 
 By default, the component will display full-text links for any resource. If you want it avoid looking for full-text availability on records for which you already have an online copy, you can add a `hide-online=tue` attribute to the component: 
@@ -36,6 +39,15 @@ The default availability message is "Full Text Available at HathiTrust". You can
 ```html
 <hathi-trust-availability hide-online="true" msg="WOW, HathiTrust! Lucky you!"></hathi-trust-availability>
 ```
+
+### Updating the icon location
+By default, this module will look for the HathiTrust icon in `custom/CENTRAL_PACKAGE/img/hathitrust.svg`. If you are using a view-level package, you will need to update the icon location like so: 
+
+```javasctipt
+app.value('hathiTrustIconPath', '/custom/CENTRAL_PACKAGE/img/hathitrust.svg');
+```
+
+```javascript
 
 ## Running Tests
 1. Clone the repo

@@ -22,4 +22,3 @@ cd ./node_modules/primo-explore-devenv/
 gulp run \
   --view "$VIEW" \
   --proxy 'https://primo-test.lib.umn.edu' \
-  --browserify

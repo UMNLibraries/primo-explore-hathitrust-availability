@@ -6,7 +6,7 @@ describe('hathiTrustAvailabilityController', function(){
   var myIconSrc = "my/icon/file.svg";
   beforeEach(function() {
     module(function($provide) {
-      $provide.value('iconSrc', myIconSrc);
+      $provide.value('hathiTrustIconPath', myIconSrc);
     });
   });
 
@@ -80,7 +80,7 @@ describe('hathiTrustAvailabilityController', function(){
   it('should provide and overridable icon source', function() {
     ctrl = $componentController('hathiTrustAvailability', null, bindings);
     ctrl.$onInit();
-    expect(ctrl.iconSrc).toBe(myIconSrc);
+    expect(ctrl.hathiTrustIconPath).toBe(myIconSrc);
   });
 
 });
