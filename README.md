@@ -1,5 +1,7 @@
 # primo-explore-hathitrust-availability
 
+![Build Status](https://api.travis-ci.org/UMNLibraries/primo-explore-hathitrust-availability.svg?branch=master)
+
 ## Features
 When search results are displayed, a record's OCLC numbers are passed to the [HathiTrust Bib API](https://www.hathitrust.org/bib_api). If at least one item with free full-text access is found, a link to the HathiTrust record is appended to the availability section. 
 
