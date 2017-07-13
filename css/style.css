@@ -1,11 +1,12 @@
 span.umnHathiTrustLink {
-  background-image: url(../img/hathitrust.ico);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-origin: content-box;
+  margin-left: -5px;
 }
 
-span.umnHathiTrustLink a {
-  padding-left: 1.5em;
+span.umnHathiTrustLink md-icon svg {
+  height: 1.2em;
+  filter: grayscale(100%);
 }
 
+span.umnHathiTrustLink:hover md-icon svg {
+  filter: grayscale(0%);
+}
