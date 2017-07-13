@@ -2,7 +2,7 @@ describe('hathiTrust service', function() {
 
   var hathiTrust, $httpBackend, $timeout;
 
-  beforeEach(angular.mock.module('viewCustom'));
+  beforeEach(angular.mock.module('hathiTrustAvailability'));
 
   beforeEach(inject(function(_hathiTrust_, $injector) {
     $httpBackend = $injector.get('$httpBackend');
