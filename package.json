@@ -13,7 +13,7 @@
     "url": "https://github.com/gpeterso/primo-explore-hathitrust-availability"
   },
   "author": "Jeff Peterson <gpeterso@umn.edu>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "cpx": ">=1.0"
   },
