@@ -8,8 +8,23 @@ When search results are displayed, a record's OCLC numbers are passed to the [Ha
 ### Screenshot
 ![screenshot](screenshots/screenshot.png)
 
+## Install
+1. Make sure you've installed and configured [primo-explore-devenv](https://github.com/ExLibrisGroup/primo-explore-devenv).
+2. Navigate to your template/central package root directory. For example: 
+    ```
+    cd primo-explore/custom/MY_VIEW_ID
+    ```
+3. If you do not already have a `package.json` file in this directory, create one: 
+    ```
+    npm init -y
+    ```
+4. Install this package: 
+    ```
+    npm install primo-explore-hathitrust-availability --save-dev
+    ```
+
 ## Usage
-Once the module is installed in your [customization environment](https://github.com/ExLibrisGroup/primo-explore-devenv), add `hathiTrustAvailability` as a dependency for your custom module, and then add the `hathi-trust-availability` directive to the `prmSearchResultAvailabilityLineAfter` component. For example:
+Once this package is installed, add `hathiTrustAvailability` as a dependency for your custom module definition, and then add the `hathi-trust-availability` directive to the `prmSearchResultAvailabilityLineAfter` component. For example:
 
 ```javascript
 var app = angular.module('viewCustom', ['hathiTrustAvailability']);
@@ -49,5 +64,3 @@ app.value('hathiTrustIconPath', '/custom/MY_VIEW_ID/img/hathitrust.svg');
 1. Clone the repo
 2. Run `npm install`
 3. Run `npm test`
-
-
