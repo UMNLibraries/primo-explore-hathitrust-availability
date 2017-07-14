@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gpeterso/primo-explore-hathitrust-availability"
+    "url": "https://github.com/UMNLibraries/primo-explore-hathitrust-availability.git"
   },
   "author": "Jeff Peterson <gpeterso@umn.edu>",
   "license": "MIT",
