@@ -1,11 +1,10 @@
 {
   "name": "primo-explore-hathitrust-availability",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "description": "Adds HathiTrust links to Primo search results",
   "main": "index.js",
   "scripts": {
     "test": "karma start --singleRun",
-    "postinstall": "cpx img/* ../../img/",
     "start": "./bin/run"
   },
   "repository": {
@@ -15,7 +14,6 @@
   "author": "Jeff Peterson <gpeterso@umn.edu>",
   "license": "MIT",
   "dependencies": {
-    "cpx": ">=1.0"
   },
   "devDependencies": {
     "angular": "^1.5.8",

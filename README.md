@@ -53,13 +53,6 @@ The default availability message is "Full Text Available at HathiTrust". You can
 <hathi-trust-availability hide-online="true" msg="WOW, HathiTrust! Lucky you!"></hathi-trust-availability>
 ```
 
-### Updating the icon location
-By default, this module will look for the HathiTrust icon in `custom/CENTRAL_PACKAGE/img/hathitrust.svg`. If you are using a view-level package, you will need to update the icon location like so: 
-
-```javasctipt
-app.value('hathiTrustIconPath', '/custom/MY_VIEW_ID/img/hathitrust.svg');
-```
-
 ## Running tests
 1. Clone the repo
 2. Run `npm install`

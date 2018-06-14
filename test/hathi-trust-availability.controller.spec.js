@@ -77,10 +77,4 @@ describe('hathiTrustAvailabilityController', function(){
     expect(ctrl.msg).toBe(expectedDefaultMsg);
   });
 
-  it('should provide and overridable icon source', function() {
-    ctrl = $componentController('hathiTrustAvailability', null, bindings);
-    ctrl.$onInit();
-    expect(ctrl.hathiTrustIconPath).toBe(myIconSrc);
-  });
-
 });
