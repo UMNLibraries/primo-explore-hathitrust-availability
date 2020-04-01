@@ -1,1 +1,36 @@
-{"oclc:343816212":{"records":{"009815173":{"recordURL":"https:\/\/catalog.hathitrust.org\/Record\/009815173","titles":["Christian perspectives on the origin of species \/"],"isbns":["9781606085233","9781606085233"],"issns":[],"oclcs":["343816212"],"lccns":[],"publishDates":["2009"]}},"items":[{"orig":"Pennsylvania State University","fromRecord":"009815173","htid":"pst.000067179572","itemURL":"https:\/\/hdl.handle.net\/2027\/pst.000067179572","rightsCode":"ic","lastUpdate":"20141031","enumcron":false,"usRightsString":"Limited (search-only)"}]}}
+{
+  "oclc:343816212": {
+    "records": {
+      "009815173": {
+        "recordURL": "https:\/\/catalog.hathitrust.org\/Record\/009815173",
+        "titles": [
+          "Christian perspectives on the origin of species \/"
+        ],
+        "isbns": [
+          "9781606085233",
+          "9781606085233"
+        ],
+        "issns": [],
+        "oclcs": [
+          "343816212"
+        ],
+        "lccns": [],
+        "publishDates": [
+          "2009"
+        ]
+      }
+    },
+    "items": [
+      {
+        "orig": "Pennsylvania State University",
+        "fromRecord": "009815173",
+        "htid": "pst.000067179572",
+        "itemURL": "https:\/\/hdl.handle.net\/2027\/pst.000067179572",
+        "rightsCode": "ic",
+        "lastUpdate": "20141031",
+        "enumcron": false,
+        "usRightsString": "Limited (search-only)"
+      }
+    ]
+  }
+}
