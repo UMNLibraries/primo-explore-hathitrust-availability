@@ -77,4 +77,19 @@ describe('hathiTrustAvailabilityController', function(){
     expect(ctrl.msg).toBe(expectedDefaultMsg);
   });
 
+  it('should call hathiTrust.findRecord() when ignoreCopyright=true', function(){
+    prmSearchResultAvailabilityLine.result = getJSONFixture('online_result.json');
+    spyOn(hathiTrust, 'findFullViewRecord').and.
+      returnValue({then: function(callback){ return callback(true)}});
+    spyOn(hathiTrust, 'findRecord').and.
+      returnValue({then: function(callback){ return callback(true)}});
+
+    bindings.ignoreCopyright = true;
+
+    ctrl = $componentController('hathiTrustAvailability', null, bindings);
+    ctrl.$onInit();
+    expect(hathiTrust.findFullViewRecord).not.toHaveBeenCalled();
+    expect(hathiTrust.findRecord).toHaveBeenCalled();
+   });
+
 });

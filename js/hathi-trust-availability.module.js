@@ -1,90 +1,139 @@
-angular.module('hathiTrustAvailability', [])
-  .constant('hathiTrustBaseUrl', "https://catalog.hathitrust.org/api/volumes/brief/json/")
-  .config(['$sceDelegateProvider', 'hathiTrustBaseUrl', function($sceDelegateProvider, hathiTrustBaseUrl) {
-    var urlWhitelist = $sceDelegateProvider.resourceUrlWhitelist();
-    urlWhitelist.push(hathiTrustBaseUrl + '**')
-    $sceDelegateProvider.resourceUrlWhitelist(urlWhitelist);
-  }])
-  .factory('hathiTrust', ['$http', '$q', function ($http, $q) {
-    var svc = {};
-    var hathiTrustBaseUrl = "https://catalog.hathitrust.org/api/volumes/brief/json/";
+angular
+  .module("hathiTrustAvailability", [])
+  .constant(
+    "hathiTrustBaseUrl",
+    "https://catalog.hathitrust.org/api/volumes/brief/json/"
+  )
+  .config([
+    "$sceDelegateProvider",
+    "hathiTrustBaseUrl",
+    function($sceDelegateProvider, hathiTrustBaseUrl) {
+      var urlWhitelist = $sceDelegateProvider.resourceUrlWhitelist();
+      urlWhitelist.push(hathiTrustBaseUrl + "**");
+      $sceDelegateProvider.resourceUrlWhitelist(urlWhitelist);
+    }
+  ])
+  .factory("hathiTrust", [
+    "$http",
+    "$q",
+    function($http, $q) {
+      var svc = {};
+      var hathiTrustBaseUrl =
+        "https://catalog.hathitrust.org/api/volumes/brief/json/";
+      var lookup = function(ids, callback) {
+        if (ids.length) {
+          var hathiTrustLookupUrl = hathiTrustBaseUrl + ids.join("|");
+          return $http
+            .jsonp(hathiTrustLookupUrl, {
+              cache: true,
+              jsonpCallbackParam: "callback"
+            })
+            .then(function(resp) {
+              return resp.data;
+            });
+        } else {
+          return $q.resolve(null);
+        }
+      };
 
-    svc.findFullViewRecord = function (ids) {
-      var deferred = $q.defer();
+      // find a HT record URL for a given list of identifiers (regardless of copyright status)
+      svc.findRecord = function(ids) {
+        return lookup(ids)
+          .then(function(bibData) {
+            if (bibData && bibData[ids[0]].items.length > 0) {
+              var recordId = Object.keys(bibData[ids[0]].records)[0];
+              return $q.resolve(bibData[ids[0]].records[recordId].recordURL);
+            } else {
+              return $q.resolve(null);
+            }
+          })
+          .catch(function(e) {
+            console.log(e);
+          });
+      };
 
-      var handleResponse = function(resp) {
-        var data = resp.data;
-        var fullTextUrl = null;
-        for (var i = 0; !fullTextUrl && i < ids.length; i++) {
-          var result = data[ids[i]];
-          for (var j = 0; j < result.items.length; j++) {
-            var item = result.items[j];
-            if (item.usRightsString.toLowerCase() === "full view") {
-              fullTextUrl = result.records[item.fromRecord].recordURL;
-              break;
-            }  
-          }  
-        }  
-        deferred.resolve(fullTextUrl);
-      }
-
-      if (ids.length) {
-        var hathiTrustLookupUrl = hathiTrustBaseUrl + ids.join('|');
-        $http.jsonp(hathiTrustLookupUrl, { cache: true , jsonpCallbackParam: 'callback'})
+      // find a public-domain HT record URL for a given list of identifiers
+      svc.findFullViewRecord = function(ids) {
+        var handleResponse = function(bibData) {
+          var fullTextUrl = null;
+          for (var i = 0; !fullTextUrl && i < ids.length; i++) {
+            var result = bibData[ids[i]];
+            for (var j = 0; j < result.items.length; j++) {
+              var item = result.items[j];
+              if (item.usRightsString.toLowerCase() === "full view") {
+                fullTextUrl = result.records[item.fromRecord].recordURL;
+                break;
+              }
+            }
+          }
+          return $q.resolve(fullTextUrl);
+        };
+        return lookup(ids)
           .then(handleResponse)
-          .catch(function(e) {console.log(e)});
-      } else {
-        deferred.resolve(null);
-      }  
+          .catch(function(e) {
+            console.log(e);
+          });
+      };
 
-      return deferred.promise;
-    }; 
+      return svc;
+    }
+  ])
+  .controller("hathiTrustAvailabilityController", [
+    "hathiTrust",
+    function(hathiTrust) {
+      var self = this;
 
-    return svc;
+      self.$onInit = function() {
+        setDefaults();
+        if (!(isOnline() && self.hideOnline)) {
+          updateHathiTrustAvailability();
+        }
+      };
 
-  }])
-  .controller('hathiTrustAvailabilityController', ['hathiTrust', function (hathiTrust) {
-    var self = this;
+      var setDefaults = function() {
+        if (!self.msg) self.msg = "Full Text Available at HathiTrust";
+      };
 
-    self.$onInit = function() {
-      setDefaults();
-      if ( !(isOnline() && self.hideOnline) ) {
-        updateHathiTrustAvailability();
-      }  
-    }  
+      var isOnline = function() {
+        return self.prmSearchResultAvailabilityLine.result.delivery.GetIt1.some(
+          function(g) {
+            return g.links.some(function(l) {
+              return l.isLinktoOnline;
+            });
+          }
+        );
+      };
 
-    var setDefaults = function() {
-      if (!self.msg) self.msg = 'Full Text Available at HathiTrust';
-    }  
-
-    var isOnline = function() {
-      return self.prmSearchResultAvailabilityLine.result.delivery.GetIt1.some(function (g) {
-        return g.links.some(function (l) {
-          return l.isLinktoOnline;
+      var updateHathiTrustAvailability = function() {
+        var hathiTrustIds = (
+          self.prmSearchResultAvailabilityLine.result.pnx.addata.oclcid || []
+        ).map(function(id) {
+          return "oclc:" + id;
         });
-      });
-    }  
-
-    var updateHathiTrustAvailability = function() {
-      var hathiTrustIds = (self.prmSearchResultAvailabilityLine.result.pnx.addata.oclcid || []).map(function (id) {
-        return "oclc:" + id;
-      });
-      hathiTrust.findFullViewRecord(hathiTrustIds).then(function (res) {
-        self.fullTextLink = res;
-      });
-    }  
-
-  }])
-  .component('hathiTrustAvailability', {
+        if (self.ignoreCopyright) {
+          hathiTrust.findRecord(hathiTrustIds).then(function(res) {
+            self.fullTextLink = res;
+          });
+        } else {
+          hathiTrust.findFullViewRecord(hathiTrustIds).then(function(res) {
+            self.fullTextLink = res;
+          });
+        }
+      };
+    }
+  ])
+  .component("hathiTrustAvailability", {
     require: {
-      prmSearchResultAvailabilityLine: '^prmSearchResultAvailabilityLine'
+      prmSearchResultAvailabilityLine: "^prmSearchResultAvailabilityLine"
     },
-    bindings: { 
-      hideOnline: '<', 
-      msg: '@?'
+    bindings: {
+      ignoreCopyright: "<",
+      hideOnline: "<",
+      msg: "@?"
     },
-    controller: 'hathiTrustAvailabilityController',
-    template: '<span ng-if="$ctrl.fullTextLink" class="umnHathiTrustLink">\
+    controller: "hathiTrustAvailabilityController",
+    template:
+      '<span ng-if="$ctrl.fullTextLink" class="umnHathiTrustLink">\
                 <md-icon alt="HathiTrust Logo">\
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">  <image id="image0" width="16" height="16" x="0" y="0"\
                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJN\
