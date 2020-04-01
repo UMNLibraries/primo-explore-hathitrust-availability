@@ -53,6 +53,13 @@ The default availability message is "Full Text Available at HathiTrust". You can
 <hathi-trust-availability hide-online="true" msg="WOW, HathiTrust! Lucky you!"></hathi-trust-availability>
 ```
 
+If you want to display full-text links to *any* HathiTrust record, regardless of copyright status, use the `ignore-copyright` attribute: 
+
+```html
+<hathi-trust-availability ignore-copyright="true"></hathi-trust-availability>
+```
+
+
 ## Running tests
 1. Clone the repo
 2. Run `npm install`

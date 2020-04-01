@@ -1,1 +1,1367 @@
-{"delivery":{"availabilityLinks":["detailsGetit1","directlink"],"displayLocation":true,"almaInstitutionsList":[{"inst":"CROOKSTON","availabilityStatus":"available","getitLink":[{"isLinktoOnline":false,"displayText":"Almagetit","hyperlinkText":"","link":"https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A53IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=,view=TWINCITIES&svc_dat=getit&user_ip=&req.skin=umn&rft.pub=&rft.place="}],"$$hashKey":"object:1444"},{"inst":"DULUTH","availabilityStatus":"available","getitLink":[{"isLinktoOnline":false,"displayText":"Almagetit","hyperlinkText":"","link":"https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A53IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=,view=TWINCITIES&svc_dat=getit&user_ip=&req.skin=umn&rft.pub=&rft.place="}],"$$hashKey":"object:1445"},{"inst":"MORRIS","availabilityStatus":"available","getitLink":[{"isLinktoOnline":false,"displayText":"Almagetit","hyperlinkText":"","link":"https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A53IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=,view=TWINCITIES&svc_dat=getit&user_ip=&req.skin=umn&rft.pub=&rft.place="}],"$$hashKey":"object:1446"}],"availabilityLinksUrl":["","https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A49IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=eng,view=TWINCITIES&svc_dat=viewit&u.ignore_date_coverage=true&req.skin=umn&Force_direct=true&is_new_ui=true"],"link":[{"displayLabel":"thumbnail","linkURL":"https://books.google.com/books?bibkeys=ISBN:,OCLC:1586310,LCCN:12037118&jscmd=viewapi&callback=updateGBSCover","linkType":"http://purl.org/pnx/linkType/thumbnail","@id":"_:0"},{"displayLabel":"$$Elinktomarc","linkURL":"/primo_library/libweb/umn/marc.jsp?id=21500541490001701","linkType":"http://purl.org/pnx/linkType/backlink","@id":"_:1","$$hashKey":"object:1055"},{"displayLabel":"$$Elinktomarc","linkURL":"/primo_library/libweb/umn/marc.jsp?id=21494733690001701","linkType":"http://purl.org/pnx/linkType/backlink","@id":"_:2","$$hashKey":"object:1056"},{"displayLabel":"$$Elinktomarc","linkURL":"/primo_library/libweb/umn/marc.jsp?id=21532694660001701","linkType":"http://purl.org/pnx/linkType/backlink","@id":"_:3","$$hashKey":"object:1057"},{"displayLabel":"$$Elinktomarc","linkURL":"/primo_library/libweb/umn/marc.jsp?id=51535278890001701","linkType":"http://purl.org/pnx/linkType/backlink","@id":"_:4","$$hashKey":"object:1058"},{"displayLabel":"$$Elinktorsrc","linkURL":"http://www.nature.com/nature/","linkType":"http://purl.org/pnx/linkType/linktorsrc","@id":"_:5","$$hashKey":"object:1050"},{"displayLabel":"System details","linkURL":"http://purl.oclc.org/DLF/benchrepro0212 ","linkType":"http://purl.org/pnx/linkType/addlink","@id":"_:6","$$hashKey":"object:1051"},{"displayLabel":"$$Eworldcat","linkURL":"http://www.worldcat.org/search?q=no%3A1586310","linkType":"http://purl.org/pnx/linkType/linktouc","@id":"_:7","$$hashKey":"object:1052"},{"displayLabel":"thumbnail","linkURL":"https://books.google.com/books?bibkeys=ISBN:,OCLC:1586310,LCCN:12037118&jscmd=viewapi&callback=updateGBSCover","linkType":"http://purl.org/pnx/linkType/thumbnail","@id":"_:8"}],"availability":["available_in_my_institution","not_restricted"],"additionalLocations":false,"displayedAvailability":"not_restricted","holding":[{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"TBIOM","isValidUser":true,"mainLocation":"TBIOM","callNumber":"(stack no.183 )","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:0","availabilityStatus":"available","subLocation":"Periodicals","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"TMAGR","isValidUser":true,"mainLocation":"TMAGR","callNumber":"","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:1","availabilityStatus":"available","subLocation":"Periodicals","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"CARN","ilsApiId":"","libraryCode":"ZMLAC","isValidUser":true,"mainLocation":"ZMLAC","callNumber":"(A-085 )","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:2","availabilityStatus":"available","subLocation":"Carleton (Use restricted to Elmer L. Andersen Library)","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"TVET","isValidUser":true,"mainLocation":"TVET","callNumber":"","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:3","availabilityStatus":"available","subLocation":"Periodicals","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"TSCI","isValidUser":true,"mainLocation":"TSCI","callNumber":"(Q1 .N2 )","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:4","availabilityStatus":"check_holdings","subLocation":"Sci/Eng Periodicals (Level B, S)","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"OWL","ilsApiId":"","libraryCode":"ZMLAC","isValidUser":true,"mainLocation":"ZMLAC","callNumber":"","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:5","availabilityStatus":"check_holdings","subLocation":"U of M Twin Cities","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"TLAKE","isValidUser":true,"mainLocation":"TLAKE","callNumber":"","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:6","availabilityStatus":"check_holdings","subLocation":"Periodicals","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"CUMC","isValidUser":false,"mainLocation":"CUMC","callNumber":"(A-085 )","adaptorid":"ALMA_01","organization":"CROOKSTON","holdingURL":"OVP","@id":"_:7","availabilityStatus":"available","subLocation":"Periodical","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"UMDFL","ilsApiId":"","libraryCode":"DUMD","isValidUser":false,"mainLocation":"DUMD","callNumber":"(PER4569.0000 )","adaptorid":"ALMA_01","organization":"DULUTH","holdingURL":"OVP","@id":"_:8","availabilityStatus":"available","subLocation":"Microfilm","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"UMDPD","ilsApiId":"","libraryCode":"DUMD","isValidUser":false,"mainLocation":"DUMD","callNumber":"(PER4569.0000 )","adaptorid":"ALMA_01","organization":"DULUTH","holdingURL":"OVP","@id":"_:9","availabilityStatus":"available","subLocation":"Periodical","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"MBRIG","isValidUser":false,"mainLocation":"MBRIG","callNumber":"","adaptorid":"ALMA_01","organization":"MORRIS","holdingURL":"OVP","@id":"_:10","availabilityStatus":"available","subLocation":"Periodical","holdId":""}],"bestlocation":{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"mainLocation":"TBIOM","subLocationCode":"PER","callNumber":"(stack no.183 )","organization":"TWINCITIES","libraryCode":"TBIOM","@id":"_:0","availabilityStatus":"available","subLocation":"Periodicals","holdId":"","isValidUser":true},"deliveryCategory":["Alma-P","Alma-E"],"serviceMode":["activate","activate"],"feDisplayOtherLocations":false,"GetIt1":[{"links":[{"isLinktoOnline":true,"displayText":"Almaviewit","hyperlinkText":"","getItTabText":"alma_tab1_norestrict","link":"https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A49IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=eng,view=TWINCITIES&svc_dat=viewit&u.ignore_date_coverage=true&req.skin=umn","@id":"_:0"}],"category":"Alma-E"},{"links":[{"isLinktoOnline":false,"displayText":"Almagetit","hyperlinkText":"","getItTabText":"alma_tab1_avail","link":"https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A49IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=eng,view=TWINCITIES&svc_dat=getit&user_ip=&req.skin=umn&rft.pub=%5BMacmillan%20Journals%20Ltd.%20etc.%5D&rft.place=London,%20etc.%5D","@id":"_:0"}],"category":"Alma-P"}]},"@rta_link":"https://umn-primoalmasb.hosted.exlibrisgroup.com/primo_library/libweb/webservices/rest/v1/rta/TWINCITIES?recordInformation=$$V21500541490001701$$OUMN_ALMA21500541490001701|$$V21494733690001701$$OUMN_ALMA21494733690001701|$$V21532694660001701$$OUMN_ALMA21532694660001701|$$V51535278890001701$$OUMN_ALMA51535278890001701|,|$$VUMN_ALMA$$OUMN_ALMA21500541490001701|$$VUMN_ALMA$$OUMN_ALMA21494733690001701|$$VUMN_ALMA$$OUMN_ALMA21532694660001701|$$VUMN_ALMA$$OUMN_ALMA51535278890001701|,|$$V01UMN_INST$$OUMN_ALMA21500541490001701|$$V01UMN_INST$$OUMN_ALMA21494733690001701|$$V01UMN_INST$$OUMN_ALMA21532694660001701|$$V01UMN_INST$$OUMN_ALMA51535278890001701|,|$$VAlma$$OUMN_ALMA21500541490001701|$$VAlma$$OUMN_ALMA21494733690001701|$$VAlma$$OUMN_ALMA21532694660001701|$$VAlma$$OUMN_ALMA51535278890001701|,|dedupmrg26753692|,|$$IDULUTH$$LDUMD$$1Periodical$$2(PER4569.0000 )$$Savailable$$X01UMN_INST$$YDUMD$$ZUMDPD$$P1$$OUMN_ALMA21500541490001701|$$IDULUTH$$LDUMD$$1Microfilm$$2(PER4569.0000 )$$Savailable$$X01UMN_INST$$YDUMD$$ZUMDFL$$P1$$OUMN_ALMA21494733690001701|$$IMORRIS$$LMBRIG$$1Periodical$$Savailable$$X01UMN_INST$$YMBRIG$$ZPER$$P2$$OUMN_ALMA21494733690001701|$$ITWINCITIES$$LTBIOM$$1Periodicals$$2(stack no.183 )$$Savailable$$X01UMN_INST$$YTBIOM$$ZPER$$P1$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LTMAGR$$1Periodicals$$Savailable$$X01UMN_INST$$YTMAGR$$ZPER$$P2$$OUMN_ALMA21532694660001701|$$ICROOKSTON$$LCUMC$$1Periodical$$2(A-085 )$$Savailable$$X01UMN_INST$$YCUMC$$ZPER$$P3$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LZMLAC$$1U of M Twin Cities$$Savailable$$X01UMN_INST$$YZMLAC$$ZOWL$$P4$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LZMLAC$$1Carleton (Use restricted to Elmer L. Andersen Library)$$2(A-085 )$$Savailable$$X01UMN_INST$$YZMLAC$$ZCARN$$P5$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LTVET$$1Periodicals$$Savailable$$X01UMN_INST$$YTVET$$ZPER$$P6$$OUMN_ALMA21532694660001701|$$IMORRIS$$LMBRIG$$1Periodical$$Savailable$$X01UMN_INST$$YMBRIG$$ZPER$$P7$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LTSCI$$1Sci/Eng Periodicals (Level B, S)$$2(Q1 .N2 )$$Scheck_holdings$$X01UMN_INST$$YTSCI$$ZPER$$P8$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LTLAKE$$1Periodicals$$Scheck_holdings$$X01UMN_INST$$YTLAKE$$ZPER$$P9$$OUMN_ALMA21532694660001701|,|$$ICROOKSTON$$Savailable|$$IDULUTH$$Savailable|$$ITWINCITIES$$Savailable|$$IMORRIS$$Savailable|,|Alma-E|Alma-P|,|$$VDULUTH$$OUMN_ALMA21500541490001701|$$VDULUTH$$OUMN_ALMA21494733690001701|$$VMORRIS$$OUMN_ALMA21494733690001701|$$VTWINCITIES$$OUMN_ALMA21532694660001701|$$VCROOKSTON$$OUMN_ALMA21532694660001701|$$VMORRIS$$OUMN_ALMA21532694660001701|$$VDULUTH$$OUMN_ALMA51535278890001701|$$VTWINCITIES$$OUMN_ALMA51535278890001701|$$VCROOKSTON$$OUMN_ALMA51535278890001701|$$VMORRIS$$OUMN_ALMA51535278890001701|,|$$V01UMN_INST:21500541490001701$$OUMN_ALMA21500541490001701|$$V01UMN_INST:21494733690001701$$OUMN_ALMA21494733690001701|$$V01UMN_INST:21532694660001701$$OUMN_ALMA21532694660001701|$$V01UMN_INST:51535278890001701$$OUMN_ALMA51535278890001701|,|__NO_VALUE__|,|__NO_VALUE__","context":"L","pnx":{"delivery":{"institution":["$$VDULUTH$$OUMN_ALMA21500541490001701","$$VDULUTH$$OUMN_ALMA21494733690001701","$$VMORRIS$$OUMN_ALMA21494733690001701","$$VTWINCITIES$$OUMN_ALMA21532694660001701","$$VCROOKSTON$$OUMN_ALMA21532694660001701","$$VMORRIS$$OUMN_ALMA21532694660001701","$$VDULUTH$$OUMN_ALMA51535278890001701","$$VTWINCITIES$$OUMN_ALMA51535278890001701","$$VCROOKSTON$$OUMN_ALMA51535278890001701","$$VMORRIS$$OUMN_ALMA51535278890001701"],"resdelscope":["$$VDULUTH$$OUMN_ALMA51535278890001701","$$VTWINCITIES$$OUMN_ALMA51535278890001701","$$VCROOKSTON$$OUMN_ALMA51535278890001701","$$VMORRIS$$OUMN_ALMA51535278890001701"],"delcategory":["$$VOnline Resource$$OUMN_ALMA21500541490001701","$$VAlma-P$$OUMN_ALMA21494733690001701","$$VAlma-P$$OUMN_ALMA21532694660001701","$$VAlma-E$$OUMN_ALMA51535278890001701"],"availability":["available_in_my_institution","not_restricted"],"displayedAvailability":"not_restricted","holding":[{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"TBIOM","isValidUser":true,"mainLocation":"TBIOM","callNumber":"(stack no.183 )","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:0","availabilityStatus":"available","subLocation":"Periodicals","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"TMAGR","isValidUser":true,"mainLocation":"TMAGR","callNumber":"","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:1","availabilityStatus":"available","subLocation":"Periodicals","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"CARN","ilsApiId":"","libraryCode":"ZMLAC","isValidUser":true,"mainLocation":"ZMLAC","callNumber":"(A-085 )","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:2","availabilityStatus":"available","subLocation":"Carleton (Use restricted to Elmer L. Andersen Library)","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"TVET","isValidUser":true,"mainLocation":"TVET","callNumber":"","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:3","availabilityStatus":"available","subLocation":"Periodicals","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"TSCI","isValidUser":true,"mainLocation":"TSCI","callNumber":"(Q1 .N2 )","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:4","availabilityStatus":"check_holdings","subLocation":"Sci/Eng Periodicals (Level B, S)","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"OWL","ilsApiId":"","libraryCode":"ZMLAC","isValidUser":true,"mainLocation":"ZMLAC","callNumber":"","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:5","availabilityStatus":"check_holdings","subLocation":"U of M Twin Cities","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"TLAKE","isValidUser":true,"mainLocation":"TLAKE","callNumber":"","adaptorid":"ALMA_01","organization":"TWINCITIES","holdingURL":"OVP","@id":"_:6","availabilityStatus":"check_holdings","subLocation":"Periodicals","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"CUMC","isValidUser":false,"mainLocation":"CUMC","callNumber":"(A-085 )","adaptorid":"ALMA_01","organization":"CROOKSTON","holdingURL":"OVP","@id":"_:7","availabilityStatus":"available","subLocation":"Periodical","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"UMDFL","ilsApiId":"","libraryCode":"DUMD","isValidUser":false,"mainLocation":"DUMD","callNumber":"(PER4569.0000 )","adaptorid":"ALMA_01","organization":"DULUTH","holdingURL":"OVP","@id":"_:8","availabilityStatus":"available","subLocation":"Microfilm","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"UMDPD","ilsApiId":"","libraryCode":"DUMD","isValidUser":false,"mainLocation":"DUMD","callNumber":"(PER4569.0000 )","adaptorid":"ALMA_01","organization":"DULUTH","holdingURL":"OVP","@id":"_:9","availabilityStatus":"available","subLocation":"Periodical","holdId":""},{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"subLocationCode":"PER","ilsApiId":"","libraryCode":"MBRIG","isValidUser":false,"mainLocation":"MBRIG","callNumber":"","adaptorid":"ALMA_01","organization":"MORRIS","holdingURL":"OVP","@id":"_:10","availabilityStatus":"available","subLocation":"Periodical","holdId":""}],"bestlocation":{"matchForHoldings":[{"holdingRecord":"852##b","matchOn":"MainLocation"}],"mainLocation":"TBIOM","subLocationCode":"PER","callNumber":"(stack no.183 )","organization":"TWINCITIES","libraryCode":"TBIOM","@id":"_:0","availabilityStatus":"available","subLocation":"Periodicals","holdId":"","isValidUser":true},"feDisplayOtherLocations":false},"display":{"lds05":["Master and use copy. Digital master created according to Benchmark for Faithful Digital Reproductions of Monographs and Serials, Version 1. Digital Library Federation, December 2002.","Mode of access: World Wide Web."],"identifier":["$$CISSN$$V0028-0836"],"creationdate":["1869  -"],"availinstitution":["$$ICROOKSTON$$Savailable","$$IDULUTH$$Savailable","$$ITWINCITIES$$Savailable","$$IMORRIS$$Savailable"],"subject":["Science -- Periodicals"],"format":["volumes : illustrations (part color) portraits ; 26-28 cm.; volume"],"description":["Some issues contain Buyer's guide.","Founded and for many years edited by Sir J. N. Lockyer.","Latest issue consulted: Volume 359, no. 6393 (24 Sept. 1992)."],"availlibrary":["$$IDULUTH$$LDUMD$$1Periodical$$2(PER4569.0000 )$$Savailable$$X01UMN_INST$$YDUMD$$ZUMDPD$$P1$$OUMN_ALMA21500541490001701","$$IDULUTH$$LDUMD$$1Microfilm$$2(PER4569.0000 )$$Savailable$$X01UMN_INST$$YDUMD$$ZUMDFL$$P1$$OUMN_ALMA21494733690001701","$$IMORRIS$$LMBRIG$$1Periodical$$Savailable$$X01UMN_INST$$YMBRIG$$ZPER$$P2$$OUMN_ALMA21494733690001701","$$ITWINCITIES$$LTBIOM$$1Periodicals$$2(stack no.183 )$$Savailable$$X01UMN_INST$$YTBIOM$$ZPER$$P1$$OUMN_ALMA21532694660001701","$$ITWINCITIES$$LTMAGR$$1Periodicals$$Savailable$$X01UMN_INST$$YTMAGR$$ZPER$$P2$$OUMN_ALMA21532694660001701","$$ICROOKSTON$$LCUMC$$1Periodical$$2(A-085 )$$Savailable$$X01UMN_INST$$YCUMC$$ZPER$$P3$$OUMN_ALMA21532694660001701","$$ITWINCITIES$$LZMLAC$$1U of M Twin Cities$$Savailable$$X01UMN_INST$$YZMLAC$$ZOWL$$P4$$OUMN_ALMA21532694660001701","$$ITWINCITIES$$LZMLAC$$1Carleton (Use restricted to Elmer L. Andersen Library)$$2(A-085 )$$Savailable$$X01UMN_INST$$YZMLAC$$ZCARN$$P5$$OUMN_ALMA21532694660001701","$$ITWINCITIES$$LTVET$$1Periodicals$$Savailable$$X01UMN_INST$$YTVET$$ZPER$$P6$$OUMN_ALMA21532694660001701","$$IMORRIS$$LMBRIG$$1Periodical$$Savailable$$X01UMN_INST$$YMBRIG$$ZPER$$P7$$OUMN_ALMA21532694660001701","$$ITWINCITIES$$LTSCI$$1Sci/Eng Periodicals (Level B, S)$$2(Q1 .N2 )$$Scheck_holdings$$X01UMN_INST$$YTSCI$$ZPER$$P8$$OUMN_ALMA21532694660001701","$$ITWINCITIES$$LTLAKE$$1Periodicals$$Scheck_holdings$$X01UMN_INST$$YTLAKE$$ZPER$$P9$$OUMN_ALMA21532694660001701"],"language":["eng"],"source":["$$VUniversity of Minnesota Catalog (9958228480001701)$$OUMN_ALMA21500541490001701","$$VUniversity of Minnesota Catalog (9956901160001701)$$OUMN_ALMA21494733690001701","$$VUniversity of Minnesota Catalog (9965669300001701)$$OUMN_ALMA21532694660001701","$$VUniversity of Minnesota Catalog (9966238120001701)$$OUMN_ALMA51535278890001701"],"title":["Nature."],"type":["journal"],"relation":["Vol. 229-246, Jan. 1971-Dec. 1973, issued in three parts. The two new parts, Nature: new biology, and Nature: physical sciences, continued the volume numbering of Nature in addition to carrying their own issue numbering. With vol. 246, Dec. 1973, Nature: new biology, and Nature: physical sciences, ceased publication and were absorbed by Nature.","Beginning in 1994 complemented by Nature structural biology, which consists of articles on structural biology for a more specialist audience.","Editorially independent from the journal Nature cell biology, but shares with that journal referees' comments on submitted articles, May 1999-"],"contributor":["Norman Lockyer Sir, 1836-1920."],"publisher":["London, etc. : Macmillan Journals Ltd. etc."],"availpnx":["available"],"lds02":["Norman Lockyer Sir, 1836-1920, (editor)"],"lds01":["Science; Periodicals"]},"control":{"recordid":["dedupmrg26753692"],"sourceid":["$$VUMN_ALMA$$OUMN_ALMA21500541490001701","$$VUMN_ALMA$$OUMN_ALMA21494733690001701","$$VUMN_ALMA$$OUMN_ALMA21532694660001701","$$VUMN_ALMA$$OUMN_ALMA51535278890001701"],"almaid":["$$V01UMN_INST:21500541490001701$$OUMN_ALMA21500541490001701","$$V01UMN_INST:21494733690001701$$OUMN_ALMA21494733690001701","$$V01UMN_INST:21532694660001701$$OUMN_ALMA21532694660001701","$$V01UMN_INST:51535278890001701$$OUMN_ALMA51535278890001701"],"originalsourceid":["$$V01UMN_INST$$OUMN_ALMA21500541490001701","$$V01UMN_INST$$OUMN_ALMA21494733690001701","$$V01UMN_INST$$OUMN_ALMA21532694660001701","$$V01UMN_INST$$OUMN_ALMA51535278890001701"],"sourceformat":["$$VMARC21$$OUMN_ALMA21500541490001701","$$VMARC21$$OUMN_ALMA21494733690001701","$$VMARC21$$OUMN_ALMA21532694660001701","$$VMARC21$$OUMN_ALMA51535278890001701"],"sourcerecordid":["$$V21500541490001701$$OUMN_ALMA21500541490001701","$$V21494733690001701$$OUMN_ALMA21494733690001701","$$V21532694660001701$$OUMN_ALMA21532694660001701","$$V51535278890001701$$OUMN_ALMA51535278890001701"],"sourcesystem":["$$VAlma$$OUMN_ALMA21500541490001701","$$VAlma$$OUMN_ALMA21494733690001701","$$VAlma$$OUMN_ALMA21532694660001701","$$VAlma$$OUMN_ALMA51535278890001701"]},"sort":{"creationdate":["1869"],"author":["Lockyer, Norman, Sir, 1836-1920."],"title":["Nature."],"lso01":["1869"]},"frbr":{"t":[1],"k1":["$$Klockyer norman sir 1836 1920$$AA","$$Knature publishing group$$AA"],"k2":["$$Knature london england$$ATO","$$Knature online$$ATO"],"k3":["$$Knature~journal$$AT"]},"dedup":{"f10":["london"],"f20":["9958228480001701"],"f1":["12037118"],"f3":["00280836"],"c1":["12037118"],"c2":["0028-0836;0302-2889"],"f5":["03022889"],"c3":["nature"],"f6":["1869"],"c4":["london"],"f7":["nature"],"c5":["9958228480001701"],"f8":["nature"],"f9":["enk"],"t":[2]},"facets":{"frbrtype":["6"],"creatorcontrib":["Lockyer, Norman","Nature Publishing Group"],"creationdate":["1869"],"rsrctype":["journals"],"classificationlcc":["Q - Science.–Science (General)–General"],"language":["eng"],"collection":["DUMD","MBRIG","TBIOM","TMAGR","CUMC","ZMLAC","TVET","TSCI","TLAKE"],"lfc01":["Science"],"prefilter":["journals"],"toplevel":["online_resources$$ICROOKSTON","online_resources$$IDULUTH","online_resources$$ITWINCITIES","online_resources$$IMORRIS","available"],"library":["DUMD","MBRIG","TBIOM","TMAGR","CUMC","ZMLAC","TVET","TSCI","TLAKE"],"atoz":["N"],"frbrgroupid":["30157779"],"genre":["Periodicals","Périodiques"],"topic":["Science–Periodicals","Science","Natural history","Sciences–Périodiques","Biologie–Périodiques","Physique–Périodiques","Natuurwetenschappen","CIENCIA–PUBLICACIONES PERIODICAS","NATURAL HISTORY","BIOLOGY","SCIENCE"],"jtitle":["Nature."]},"enrichment":{"classificationlcc":["Q1"]},"search":{"sourceid":["UMN_ALMA"],"creatorcontrib":["Norman,  Lockyer  Sir, 1836-1920.","Lockyer, N","Norman,  Lockyer  Sir, 1836-1920, editor.","Nature Publishing Group."],"creationdate":["1869","9999"],"subject":["Science Periodicals.","Science.","Periodicals.","Natural history.","Sciences Périodiques.","Biologie Périodiques.","Physique Périodiques.","Natuurwetenschappen.","CIENCIA PUBLICACIONES PERIODICAS.","NATURAL HISTORY.","BIOLOGY.","SCIENCE."],"rsrctype":["journal"],"lsr03":["004121395","umn_aleph004121395","004064136","umn_aleph004064136","000119501","umn_aleph000119501"],"lsr02":["PER4569.0000","PER4569 0000","PER45690000","stack no.183","stack no 183","stackno.183","stackno183","A-085","A 085","A085","Q1 .N2","Q1 N2","Q1.N2","Q1N2"],"lsr01":["1586310","7417753","47076528"],"title":["Nature.","Nature (London, England)","Nature (Online)"],"startdate":["18690101"],"addtitle":["Nature (Online)","Nature: physical science","Nature: new biology","Nature structural biology","Nature cell biology","Nature","Nature. Physical science","Nature. New biology","Yeast genome directory.","Nature insight."],"addsrcrecordid":["9958228480001701","9956901160001701","9965669300001701","9966238120001701"],"recordid":["UMN_ALMA21500541490001701","UMN_ALMA21494733690001701","UMN_ALMA21532694660001701","UMN_ALMA51535278890001701"],"general":["UMDPD","DUMD","UMDFL","MBRIG","PER","English","TBIOM","TMAGR","CUMC","ZMLAC","OWL","CARN","TVET","TSCI","TLAKE","CKB954925427238"],"enddate":["99991231"],"issn":["0028-0836","0302-2889","1476-4687"],"alttitle":["Nature (Lond.)","Nature (London, England)","Nature weekly","Nature (Online)","Nature (Basingstoke, Online)","NATURE [LONDON]","Nature","International weekly journal of science"],"lsr06":["[London, etc.] :","London :","[London] :"],"scope":["DUMD_UMDPD","UMN_ALMA","DUMD","DUMD_UMDFL","MBRIG","MBRIG_PER","DULUTH","MORRIS","TBIOM","TBIOM_PER","TMAGR","TMAGR_PER","CUMC","CUMC_PER","ZMLAC","ZMLAC_OWL","ZMLAC_CARN","TVET","TVET_PER","TSCI","TSCI_PER","TLAKE","TLAKE_PER","TWINCITIES","CROOKSTON","AZDULUTH","AZTWINCITIES","AZCROOKSTON","AZMORRIS"],"lsr05":["[Macmillan Journals Ltd. etc.]","Macmillan and Co","[Macmillan Journals Ltd., etc]","Nature Pub. Group"]},"links":{"thumbnail":["$$Tgoogle_thumb"],"backlink":["$$V$$Talma_linktomarc$$Elinktomarc$$OUMN_ALMA21500541490001701","$$V$$Talma_linktomarc$$Elinktomarc$$OUMN_ALMA21494733690001701","$$V$$Talma_linktomarc$$Elinktomarc$$OUMN_ALMA21532694660001701","$$V$$Talma_linktomarc$$Elinktomarc$$OUMN_ALMA51535278890001701"],"linktorsrc":["$$Uhttp://www.nature.com/nature/$$Elinktorsrc"],"addlink":["$$Uhttp://purl.oclc.org/DLF/benchrepro0212 $$DSystem details"]},"ranking":{"booster2":["1"],"booster1":["1"]},"addata":{"date":["1869"],"aulast":["Lockyer"],"cop":["London, etc.]","London","London]"],"coden":["NATUAS"],"ristype":["JOUR"],"format":["journal"],"mis1":["21500541490001701","21494733690001701","21532694660001701","51535278890001701"],"oclcid":["1586310","7417753","47076528"],"aufirst":["Norman,"],"addtitle":["Nature weekly","NATURE [LONDON]"],"addau":["Lockyer, Norman","Nature Publishing Group"],"lccn":["12037118","2005233250"],"stitle":["Nature","NATURE (LOND)"],"issn":["0028-0836"],"genre":["journal"],"jtitle":["Nature."],"risdate":["1869"],"pub":["[Macmillan Journals Ltd. etc.]","Macmillan and Co","[Macmillan Journals Ltd., etc]","Nature Pub. Group"]},"browse":{"institution":["DULUTH","MORRIS","TWINCITIES","CROOKSTON","MORRIS"],"author":["$$DLockyer, Norman, Sir, 1836-1920$$ELockyer, Norman, Sir, 1836-1920$$UDULUTH","$$DLockyer, Norman, Sir, 1836-1920$$ELockyer, Norman, Sir, 1836-1920$$UTWINCITIES","$$DLockyer, Norman, Sir, 1836-1920$$ELockyer, Norman, Sir, 1836-1920$$UCROOKSTON","$$DLockyer, Norman, Sir, 1836-1920$$ELockyer, Norman, Sir, 1836-1920$$UMORRIS","$$DNature Publishing Group$$ENature Publishing Group$$UDULUTH","$$DNature Publishing Group$$ENature Publishing Group$$UTWINCITIES","$$DNature Publishing Group$$ENature Publishing Group$$UCROOKSTON","$$DNature Publishing Group$$ENature Publishing Group$$UMORRIS"],"subject":["$$DScience -- Periodicals$$EScience Periodicals$$UDULUTH","$$DScience -- Periodicals$$EScience Periodicals$$UMORRIS","$$DScience -- Periodicals$$EScience Periodicals$$UTWINCITIES","$$DScience -- Periodicals$$EScience Periodicals$$UCROOKSTON","$$DScience$$EScience$$UTWINCITIES","$$DScience$$EScience$$UCROOKSTON","$$DScience$$EScience$$UMORRIS","$$DPeriodicals$$EPeriodicals$$UTWINCITIES","$$DPeriodicals$$EPeriodicals$$UCROOKSTON","$$DPeriodicals$$EPeriodicals$$UMORRIS","$$DScience$$EScience$$UDULUTH","$$DNatural history$$ENatural history$$UDULUTH","$$DNatural history$$ENatural history$$UTWINCITIES","$$DNatural history$$ENatural history$$UCROOKSTON","$$DNatural history$$ENatural history$$UMORRIS","$$DSciences -- Périodiques$$ESciences Périodiques$$UDULUTH","$$DSciences -- Périodiques$$ESciences Périodiques$$UTWINCITIES","$$DSciences -- Périodiques$$ESciences Périodiques$$UCROOKSTON","$$DSciences -- Périodiques$$ESciences Périodiques$$UMORRIS","$$DBiologie -- Périodiques$$EBiologie Périodiques$$UDULUTH","$$DBiologie -- Périodiques$$EBiologie Périodiques$$UTWINCITIES","$$DBiologie -- Périodiques$$EBiologie Périodiques$$UCROOKSTON","$$DBiologie -- Périodiques$$EBiologie Périodiques$$UMORRIS","$$DPhysique -- Périodiques$$EPhysique Périodiques$$UDULUTH","$$DPhysique -- Périodiques$$EPhysique Périodiques$$UTWINCITIES","$$DPhysique -- Périodiques$$EPhysique Périodiques$$UCROOKSTON","$$DPhysique -- Périodiques$$EPhysique Périodiques$$UMORRIS","$$DScience$$EScience$$Tfast$$I(OCoLC)fst01108176$$UDULUTH","$$DScience$$EScience$$Tfast$$I(OCoLC)fst01108176$$UTWINCITIES","$$DScience$$EScience$$Tfast$$I(OCoLC)fst01108176$$UCROOKSTON","$$DScience$$EScience$$Tfast$$I(OCoLC)fst01108176$$UMORRIS","$$DNatuurwetenschappen$$ENatuurwetenschappen$$Tgtt$$UDULUTH","$$DNatuurwetenschappen$$ENatuurwetenschappen$$Tgtt$$UTWINCITIES","$$DNatuurwetenschappen$$ENatuurwetenschappen$$Tgtt$$UCROOKSTON","$$DNatuurwetenschappen$$ENatuurwetenschappen$$Tgtt$$UMORRIS","$$DCIENCIA -- PUBLICACIONES PERIODICAS$$ECIENCIA PUBLICACIONES PERIODICAS$$Trenib$$UDULUTH","$$DCIENCIA -- PUBLICACIONES PERIODICAS$$ECIENCIA PUBLICACIONES PERIODICAS$$Trenib$$UTWINCITIES","$$DCIENCIA -- PUBLICACIONES PERIODICAS$$ECIENCIA PUBLICACIONES PERIODICAS$$Trenib$$UCROOKSTON","$$DCIENCIA -- PUBLICACIONES PERIODICAS$$ECIENCIA PUBLICACIONES PERIODICAS$$Trenib$$UMORRIS","$$DNATURAL HISTORY$$ENATURAL HISTORY$$Tunbist$$UDULUTH","$$DNATURAL HISTORY$$ENATURAL HISTORY$$Tunbist$$UTWINCITIES","$$DNATURAL HISTORY$$ENATURAL HISTORY$$Tunbist$$UCROOKSTON","$$DNATURAL HISTORY$$ENATURAL HISTORY$$Tunbist$$UMORRIS","$$DBIOLOGY$$EBIOLOGY$$Tunbist$$UDULUTH","$$DBIOLOGY$$EBIOLOGY$$Tunbist$$UTWINCITIES","$$DBIOLOGY$$EBIOLOGY$$Tunbist$$UCROOKSTON","$$DBIOLOGY$$EBIOLOGY$$Tunbist$$UMORRIS","$$DSCIENCE$$ESCIENCE$$Tunbist$$UDULUTH","$$DSCIENCE$$ESCIENCE$$Tunbist$$UTWINCITIES","$$DSCIENCE$$ESCIENCE$$Tunbist$$UCROOKSTON","$$DSCIENCE$$ESCIENCE$$Tunbist$$UMORRIS","$$DPeriodicals$$EPeriodicals$$UDULUTH","$$DPeriodicals$$EPeriodicals$$Tfast$$I(OCoLC)fst01411641$$UDULUTH","$$DPeriodicals$$EPeriodicals$$Tfast$$I(OCoLC)fst01411641$$UTWINCITIES","$$DPeriodicals$$EPeriodicals$$Tfast$$I(OCoLC)fst01411641$$UCROOKSTON","$$DPeriodicals$$EPeriodicals$$Tfast$$I(OCoLC)fst01411641$$UMORRIS"],"callnumber":["$$IDULUTH$$DPER4569.0000$$Eper4569.0000$$T8","$$IMORRIS$$T5","$$ITWINCITIES$$Dstack no.183$$Estack no.183$$T4","$$ITWINCITIES$$T5","$$ICROOKSTON$$DA-085$$Ea-085$$T4","$$ITWINCITIES$$T4","$$ITWINCITIES$$DA-085$$EA                 085$$T0","$$IMORRIS$$T5","$$ITWINCITIES$$DQ1 .N2$$EQ    1            N 2$$T0"],"title":["$$DNature$$ENature$$UDULUTH","$$DNature$$ENature$$UMORRIS","$$DNature (London, England)$$ENature (London, England)$$UDULUTH","$$DNature (London, England)$$ENature (London, England)$$UMORRIS","$$DNature$$ENature$$UTWINCITIES","$$DNature$$ENature$$UCROOKSTON","$$DNature weekly$$ENature weekly$$UTWINCITIES","$$DNature weekly$$ENature weekly$$UCROOKSTON","$$DNature weekly$$ENature weekly$$UMORRIS","$$DYeast genome directory$$EYeast genome directory$$UTWINCITIES","$$DYeast genome directory$$EYeast genome directory$$UCROOKSTON","$$DYeast genome directory$$EYeast genome directory$$UMORRIS","$$DNature insight$$ENature insight$$UTWINCITIES","$$DNature insight$$ENature insight$$UCROOKSTON","$$DNature insight$$ENature insight$$UMORRIS","$$DNature (Online)$$ENature (Online)$$UDULUTH","$$DNature (Online)$$ENature (Online)$$UTWINCITIES","$$DNature (Online)$$ENature (Online)$$UCROOKSTON","$$DNature (Online)$$ENature (Online)$$UMORRIS","$$DNATURE [LONDON]$$ENATURE [LONDON]$$UDULUTH","$$DNATURE [LONDON]$$ENATURE [LONDON]$$UTWINCITIES","$$DNATURE [LONDON]$$ENATURE [LONDON]$$UCROOKSTON","$$DNATURE [LONDON]$$ENATURE [LONDON]$$UMORRIS","$$DInternational weekly journal of science$$EInternational weekly journal of science$$UDULUTH","$$DInternational weekly journal of science$$EInternational weekly journal of science$$UTWINCITIES","$$DInternational weekly journal of science$$EInternational weekly journal of science$$UCROOKSTON","$$DInternational weekly journal of science$$EInternational weekly journal of science$$UMORRIS"]}},"@id":"https://umn-primoalmasb.hosted.exlibrisgroup.com/primo_library/libweb/webservices/rest/v1/pnxs","beaconO22":"319","rtaInProgress":false}
+{
+  "delivery": {
+    "availabilityLinks": [
+      "detailsGetit1",
+      "directlink"
+    ],
+    "displayLocation": true,
+    "almaInstitutionsList": [
+      {
+        "inst": "CROOKSTON",
+        "availabilityStatus": "available",
+        "getitLink": [
+          {
+            "isLinktoOnline": false,
+            "displayText": "Almagetit",
+            "hyperlinkText": "",
+            "link": "https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A53IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=,view=TWINCITIES&svc_dat=getit&user_ip=&req.skin=umn&rft.pub=&rft.place="
+          }
+        ],
+        "$$hashKey": "object:1444"
+      },
+      {
+        "inst": "DULUTH",
+        "availabilityStatus": "available",
+        "getitLink": [
+          {
+            "isLinktoOnline": false,
+            "displayText": "Almagetit",
+            "hyperlinkText": "",
+            "link": "https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A53IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=,view=TWINCITIES&svc_dat=getit&user_ip=&req.skin=umn&rft.pub=&rft.place="
+          }
+        ],
+        "$$hashKey": "object:1445"
+      },
+      {
+        "inst": "MORRIS",
+        "availabilityStatus": "available",
+        "getitLink": [
+          {
+            "isLinktoOnline": false,
+            "displayText": "Almagetit",
+            "hyperlinkText": "",
+            "link": "https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A53IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=,view=TWINCITIES&svc_dat=getit&user_ip=&req.skin=umn&rft.pub=&rft.place="
+          }
+        ],
+        "$$hashKey": "object:1446"
+      }
+    ],
+    "availabilityLinksUrl": [
+      "",
+      "https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A49IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=eng,view=TWINCITIES&svc_dat=viewit&u.ignore_date_coverage=true&req.skin=umn&Force_direct=true&is_new_ui=true"
+    ],
+    "link": [
+      {
+        "displayLabel": "thumbnail",
+        "linkURL": "https://books.google.com/books?bibkeys=ISBN:,OCLC:1586310,LCCN:12037118&jscmd=viewapi&callback=updateGBSCover",
+        "linkType": "http://purl.org/pnx/linkType/thumbnail",
+        "@id": "_:0"
+      },
+      {
+        "displayLabel": "$$Elinktomarc",
+        "linkURL": "/primo_library/libweb/umn/marc.jsp?id=21500541490001701",
+        "linkType": "http://purl.org/pnx/linkType/backlink",
+        "@id": "_:1",
+        "$$hashKey": "object:1055"
+      },
+      {
+        "displayLabel": "$$Elinktomarc",
+        "linkURL": "/primo_library/libweb/umn/marc.jsp?id=21494733690001701",
+        "linkType": "http://purl.org/pnx/linkType/backlink",
+        "@id": "_:2",
+        "$$hashKey": "object:1056"
+      },
+      {
+        "displayLabel": "$$Elinktomarc",
+        "linkURL": "/primo_library/libweb/umn/marc.jsp?id=21532694660001701",
+        "linkType": "http://purl.org/pnx/linkType/backlink",
+        "@id": "_:3",
+        "$$hashKey": "object:1057"
+      },
+      {
+        "displayLabel": "$$Elinktomarc",
+        "linkURL": "/primo_library/libweb/umn/marc.jsp?id=51535278890001701",
+        "linkType": "http://purl.org/pnx/linkType/backlink",
+        "@id": "_:4",
+        "$$hashKey": "object:1058"
+      },
+      {
+        "displayLabel": "$$Elinktorsrc",
+        "linkURL": "http://www.nature.com/nature/",
+        "linkType": "http://purl.org/pnx/linkType/linktorsrc",
+        "@id": "_:5",
+        "$$hashKey": "object:1050"
+      },
+      {
+        "displayLabel": "System details",
+        "linkURL": "http://purl.oclc.org/DLF/benchrepro0212 ",
+        "linkType": "http://purl.org/pnx/linkType/addlink",
+        "@id": "_:6",
+        "$$hashKey": "object:1051"
+      },
+      {
+        "displayLabel": "$$Eworldcat",
+        "linkURL": "http://www.worldcat.org/search?q=no%3A1586310",
+        "linkType": "http://purl.org/pnx/linkType/linktouc",
+        "@id": "_:7",
+        "$$hashKey": "object:1052"
+      },
+      {
+        "displayLabel": "thumbnail",
+        "linkURL": "https://books.google.com/books?bibkeys=ISBN:,OCLC:1586310,LCCN:12037118&jscmd=viewapi&callback=updateGBSCover",
+        "linkType": "http://purl.org/pnx/linkType/thumbnail",
+        "@id": "_:8"
+      }
+    ],
+    "availability": [
+      "available_in_my_institution",
+      "not_restricted"
+    ],
+    "additionalLocations": false,
+    "displayedAvailability": "not_restricted",
+    "holding": [
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "PER",
+        "ilsApiId": "",
+        "libraryCode": "TBIOM",
+        "isValidUser": true,
+        "mainLocation": "TBIOM",
+        "callNumber": "(stack no.183 )",
+        "adaptorid": "ALMA_01",
+        "organization": "TWINCITIES",
+        "holdingURL": "OVP",
+        "@id": "_:0",
+        "availabilityStatus": "available",
+        "subLocation": "Periodicals",
+        "holdId": ""
+      },
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "PER",
+        "ilsApiId": "",
+        "libraryCode": "TMAGR",
+        "isValidUser": true,
+        "mainLocation": "TMAGR",
+        "callNumber": "",
+        "adaptorid": "ALMA_01",
+        "organization": "TWINCITIES",
+        "holdingURL": "OVP",
+        "@id": "_:1",
+        "availabilityStatus": "available",
+        "subLocation": "Periodicals",
+        "holdId": ""
+      },
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "CARN",
+        "ilsApiId": "",
+        "libraryCode": "ZMLAC",
+        "isValidUser": true,
+        "mainLocation": "ZMLAC",
+        "callNumber": "(A-085 )",
+        "adaptorid": "ALMA_01",
+        "organization": "TWINCITIES",
+        "holdingURL": "OVP",
+        "@id": "_:2",
+        "availabilityStatus": "available",
+        "subLocation": "Carleton (Use restricted to Elmer L. Andersen Library)",
+        "holdId": ""
+      },
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "PER",
+        "ilsApiId": "",
+        "libraryCode": "TVET",
+        "isValidUser": true,
+        "mainLocation": "TVET",
+        "callNumber": "",
+        "adaptorid": "ALMA_01",
+        "organization": "TWINCITIES",
+        "holdingURL": "OVP",
+        "@id": "_:3",
+        "availabilityStatus": "available",
+        "subLocation": "Periodicals",
+        "holdId": ""
+      },
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "PER",
+        "ilsApiId": "",
+        "libraryCode": "TSCI",
+        "isValidUser": true,
+        "mainLocation": "TSCI",
+        "callNumber": "(Q1 .N2 )",
+        "adaptorid": "ALMA_01",
+        "organization": "TWINCITIES",
+        "holdingURL": "OVP",
+        "@id": "_:4",
+        "availabilityStatus": "check_holdings",
+        "subLocation": "Sci/Eng Periodicals (Level B, S)",
+        "holdId": ""
+      },
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "OWL",
+        "ilsApiId": "",
+        "libraryCode": "ZMLAC",
+        "isValidUser": true,
+        "mainLocation": "ZMLAC",
+        "callNumber": "",
+        "adaptorid": "ALMA_01",
+        "organization": "TWINCITIES",
+        "holdingURL": "OVP",
+        "@id": "_:5",
+        "availabilityStatus": "check_holdings",
+        "subLocation": "U of M Twin Cities",
+        "holdId": ""
+      },
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "PER",
+        "ilsApiId": "",
+        "libraryCode": "TLAKE",
+        "isValidUser": true,
+        "mainLocation": "TLAKE",
+        "callNumber": "",
+        "adaptorid": "ALMA_01",
+        "organization": "TWINCITIES",
+        "holdingURL": "OVP",
+        "@id": "_:6",
+        "availabilityStatus": "check_holdings",
+        "subLocation": "Periodicals",
+        "holdId": ""
+      },
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "PER",
+        "ilsApiId": "",
+        "libraryCode": "CUMC",
+        "isValidUser": false,
+        "mainLocation": "CUMC",
+        "callNumber": "(A-085 )",
+        "adaptorid": "ALMA_01",
+        "organization": "CROOKSTON",
+        "holdingURL": "OVP",
+        "@id": "_:7",
+        "availabilityStatus": "available",
+        "subLocation": "Periodical",
+        "holdId": ""
+      },
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "UMDFL",
+        "ilsApiId": "",
+        "libraryCode": "DUMD",
+        "isValidUser": false,
+        "mainLocation": "DUMD",
+        "callNumber": "(PER4569.0000 )",
+        "adaptorid": "ALMA_01",
+        "organization": "DULUTH",
+        "holdingURL": "OVP",
+        "@id": "_:8",
+        "availabilityStatus": "available",
+        "subLocation": "Microfilm",
+        "holdId": ""
+      },
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "UMDPD",
+        "ilsApiId": "",
+        "libraryCode": "DUMD",
+        "isValidUser": false,
+        "mainLocation": "DUMD",
+        "callNumber": "(PER4569.0000 )",
+        "adaptorid": "ALMA_01",
+        "organization": "DULUTH",
+        "holdingURL": "OVP",
+        "@id": "_:9",
+        "availabilityStatus": "available",
+        "subLocation": "Periodical",
+        "holdId": ""
+      },
+      {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "subLocationCode": "PER",
+        "ilsApiId": "",
+        "libraryCode": "MBRIG",
+        "isValidUser": false,
+        "mainLocation": "MBRIG",
+        "callNumber": "",
+        "adaptorid": "ALMA_01",
+        "organization": "MORRIS",
+        "holdingURL": "OVP",
+        "@id": "_:10",
+        "availabilityStatus": "available",
+        "subLocation": "Periodical",
+        "holdId": ""
+      }
+    ],
+    "bestlocation": {
+      "matchForHoldings": [
+        {
+          "holdingRecord": "852##b",
+          "matchOn": "MainLocation"
+        }
+      ],
+      "mainLocation": "TBIOM",
+      "subLocationCode": "PER",
+      "callNumber": "(stack no.183 )",
+      "organization": "TWINCITIES",
+      "libraryCode": "TBIOM",
+      "@id": "_:0",
+      "availabilityStatus": "available",
+      "subLocation": "Periodicals",
+      "holdId": "",
+      "isValidUser": true
+    },
+    "deliveryCategory": [
+      "Alma-P",
+      "Alma-E"
+    ],
+    "serviceMode": [
+      "activate",
+      "activate"
+    ],
+    "feDisplayOtherLocations": false,
+    "GetIt1": [
+      {
+        "links": [
+          {
+            "isLinktoOnline": true,
+            "displayText": "Almaviewit",
+            "hyperlinkText": "",
+            "getItTabText": "alma_tab1_norestrict",
+            "link": "https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A49IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=eng,view=TWINCITIES&svc_dat=viewit&u.ignore_date_coverage=true&req.skin=umn",
+            "@id": "_:0"
+          }
+        ],
+        "category": "Alma-E"
+      },
+      {
+        "links": [
+          {
+            "isLinktoOnline": false,
+            "displayText": "Almagetit",
+            "hyperlinkText": "",
+            "getItTabText": "alma_tab1_avail",
+            "link": "https://sandbox01-na.alma.exlibrisgroup.com/view/uresolver/01UMN_INST/openurl-Twin Cities?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2016-09-15T11%3A11%3A49IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-UMN_ALMA&req_id=&rft_dat=ie=01UMN_INST:21500541490001701,ie=01UMN_INST:21494733690001701,ie=01UMN_INST:21532694660001701,ie=01UMN_INST:51535278890001701,language=eng,view=TWINCITIES&svc_dat=getit&user_ip=&req.skin=umn&rft.pub=%5BMacmillan%20Journals%20Ltd.%20etc.%5D&rft.place=London,%20etc.%5D",
+            "@id": "_:0"
+          }
+        ],
+        "category": "Alma-P"
+      }
+    ]
+  },
+  "@rta_link": "https://umn-primoalmasb.hosted.exlibrisgroup.com/primo_library/libweb/webservices/rest/v1/rta/TWINCITIES?recordInformation=$$V21500541490001701$$OUMN_ALMA21500541490001701|$$V21494733690001701$$OUMN_ALMA21494733690001701|$$V21532694660001701$$OUMN_ALMA21532694660001701|$$V51535278890001701$$OUMN_ALMA51535278890001701|,|$$VUMN_ALMA$$OUMN_ALMA21500541490001701|$$VUMN_ALMA$$OUMN_ALMA21494733690001701|$$VUMN_ALMA$$OUMN_ALMA21532694660001701|$$VUMN_ALMA$$OUMN_ALMA51535278890001701|,|$$V01UMN_INST$$OUMN_ALMA21500541490001701|$$V01UMN_INST$$OUMN_ALMA21494733690001701|$$V01UMN_INST$$OUMN_ALMA21532694660001701|$$V01UMN_INST$$OUMN_ALMA51535278890001701|,|$$VAlma$$OUMN_ALMA21500541490001701|$$VAlma$$OUMN_ALMA21494733690001701|$$VAlma$$OUMN_ALMA21532694660001701|$$VAlma$$OUMN_ALMA51535278890001701|,|dedupmrg26753692|,|$$IDULUTH$$LDUMD$$1Periodical$$2(PER4569.0000 )$$Savailable$$X01UMN_INST$$YDUMD$$ZUMDPD$$P1$$OUMN_ALMA21500541490001701|$$IDULUTH$$LDUMD$$1Microfilm$$2(PER4569.0000 )$$Savailable$$X01UMN_INST$$YDUMD$$ZUMDFL$$P1$$OUMN_ALMA21494733690001701|$$IMORRIS$$LMBRIG$$1Periodical$$Savailable$$X01UMN_INST$$YMBRIG$$ZPER$$P2$$OUMN_ALMA21494733690001701|$$ITWINCITIES$$LTBIOM$$1Periodicals$$2(stack no.183 )$$Savailable$$X01UMN_INST$$YTBIOM$$ZPER$$P1$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LTMAGR$$1Periodicals$$Savailable$$X01UMN_INST$$YTMAGR$$ZPER$$P2$$OUMN_ALMA21532694660001701|$$ICROOKSTON$$LCUMC$$1Periodical$$2(A-085 )$$Savailable$$X01UMN_INST$$YCUMC$$ZPER$$P3$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LZMLAC$$1U of M Twin Cities$$Savailable$$X01UMN_INST$$YZMLAC$$ZOWL$$P4$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LZMLAC$$1Carleton (Use restricted to Elmer L. Andersen Library)$$2(A-085 )$$Savailable$$X01UMN_INST$$YZMLAC$$ZCARN$$P5$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LTVET$$1Periodicals$$Savailable$$X01UMN_INST$$YTVET$$ZPER$$P6$$OUMN_ALMA21532694660001701|$$IMORRIS$$LMBRIG$$1Periodical$$Savailable$$X01UMN_INST$$YMBRIG$$ZPER$$P7$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LTSCI$$1Sci/Eng Periodicals (Level B, S)$$2(Q1 .N2 )$$Scheck_holdings$$X01UMN_INST$$YTSCI$$ZPER$$P8$$OUMN_ALMA21532694660001701|$$ITWINCITIES$$LTLAKE$$1Periodicals$$Scheck_holdings$$X01UMN_INST$$YTLAKE$$ZPER$$P9$$OUMN_ALMA21532694660001701|,|$$ICROOKSTON$$Savailable|$$IDULUTH$$Savailable|$$ITWINCITIES$$Savailable|$$IMORRIS$$Savailable|,|Alma-E|Alma-P|,|$$VDULUTH$$OUMN_ALMA21500541490001701|$$VDULUTH$$OUMN_ALMA21494733690001701|$$VMORRIS$$OUMN_ALMA21494733690001701|$$VTWINCITIES$$OUMN_ALMA21532694660001701|$$VCROOKSTON$$OUMN_ALMA21532694660001701|$$VMORRIS$$OUMN_ALMA21532694660001701|$$VDULUTH$$OUMN_ALMA51535278890001701|$$VTWINCITIES$$OUMN_ALMA51535278890001701|$$VCROOKSTON$$OUMN_ALMA51535278890001701|$$VMORRIS$$OUMN_ALMA51535278890001701|,|$$V01UMN_INST:21500541490001701$$OUMN_ALMA21500541490001701|$$V01UMN_INST:21494733690001701$$OUMN_ALMA21494733690001701|$$V01UMN_INST:21532694660001701$$OUMN_ALMA21532694660001701|$$V01UMN_INST:51535278890001701$$OUMN_ALMA51535278890001701|,|__NO_VALUE__|,|__NO_VALUE__",
+  "context": "L",
+  "pnx": {
+    "delivery": {
+      "institution": [
+        "$$VDULUTH$$OUMN_ALMA21500541490001701",
+        "$$VDULUTH$$OUMN_ALMA21494733690001701",
+        "$$VMORRIS$$OUMN_ALMA21494733690001701",
+        "$$VTWINCITIES$$OUMN_ALMA21532694660001701",
+        "$$VCROOKSTON$$OUMN_ALMA21532694660001701",
+        "$$VMORRIS$$OUMN_ALMA21532694660001701",
+        "$$VDULUTH$$OUMN_ALMA51535278890001701",
+        "$$VTWINCITIES$$OUMN_ALMA51535278890001701",
+        "$$VCROOKSTON$$OUMN_ALMA51535278890001701",
+        "$$VMORRIS$$OUMN_ALMA51535278890001701"
+      ],
+      "resdelscope": [
+        "$$VDULUTH$$OUMN_ALMA51535278890001701",
+        "$$VTWINCITIES$$OUMN_ALMA51535278890001701",
+        "$$VCROOKSTON$$OUMN_ALMA51535278890001701",
+        "$$VMORRIS$$OUMN_ALMA51535278890001701"
+      ],
+      "delcategory": [
+        "$$VOnline Resource$$OUMN_ALMA21500541490001701",
+        "$$VAlma-P$$OUMN_ALMA21494733690001701",
+        "$$VAlma-P$$OUMN_ALMA21532694660001701",
+        "$$VAlma-E$$OUMN_ALMA51535278890001701"
+      ],
+      "availability": [
+        "available_in_my_institution",
+        "not_restricted"
+      ],
+      "displayedAvailability": "not_restricted",
+      "holding": [
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "PER",
+          "ilsApiId": "",
+          "libraryCode": "TBIOM",
+          "isValidUser": true,
+          "mainLocation": "TBIOM",
+          "callNumber": "(stack no.183 )",
+          "adaptorid": "ALMA_01",
+          "organization": "TWINCITIES",
+          "holdingURL": "OVP",
+          "@id": "_:0",
+          "availabilityStatus": "available",
+          "subLocation": "Periodicals",
+          "holdId": ""
+        },
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "PER",
+          "ilsApiId": "",
+          "libraryCode": "TMAGR",
+          "isValidUser": true,
+          "mainLocation": "TMAGR",
+          "callNumber": "",
+          "adaptorid": "ALMA_01",
+          "organization": "TWINCITIES",
+          "holdingURL": "OVP",
+          "@id": "_:1",
+          "availabilityStatus": "available",
+          "subLocation": "Periodicals",
+          "holdId": ""
+        },
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "CARN",
+          "ilsApiId": "",
+          "libraryCode": "ZMLAC",
+          "isValidUser": true,
+          "mainLocation": "ZMLAC",
+          "callNumber": "(A-085 )",
+          "adaptorid": "ALMA_01",
+          "organization": "TWINCITIES",
+          "holdingURL": "OVP",
+          "@id": "_:2",
+          "availabilityStatus": "available",
+          "subLocation": "Carleton (Use restricted to Elmer L. Andersen Library)",
+          "holdId": ""
+        },
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "PER",
+          "ilsApiId": "",
+          "libraryCode": "TVET",
+          "isValidUser": true,
+          "mainLocation": "TVET",
+          "callNumber": "",
+          "adaptorid": "ALMA_01",
+          "organization": "TWINCITIES",
+          "holdingURL": "OVP",
+          "@id": "_:3",
+          "availabilityStatus": "available",
+          "subLocation": "Periodicals",
+          "holdId": ""
+        },
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "PER",
+          "ilsApiId": "",
+          "libraryCode": "TSCI",
+          "isValidUser": true,
+          "mainLocation": "TSCI",
+          "callNumber": "(Q1 .N2 )",
+          "adaptorid": "ALMA_01",
+          "organization": "TWINCITIES",
+          "holdingURL": "OVP",
+          "@id": "_:4",
+          "availabilityStatus": "check_holdings",
+          "subLocation": "Sci/Eng Periodicals (Level B, S)",
+          "holdId": ""
+        },
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "OWL",
+          "ilsApiId": "",
+          "libraryCode": "ZMLAC",
+          "isValidUser": true,
+          "mainLocation": "ZMLAC",
+          "callNumber": "",
+          "adaptorid": "ALMA_01",
+          "organization": "TWINCITIES",
+          "holdingURL": "OVP",
+          "@id": "_:5",
+          "availabilityStatus": "check_holdings",
+          "subLocation": "U of M Twin Cities",
+          "holdId": ""
+        },
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "PER",
+          "ilsApiId": "",
+          "libraryCode": "TLAKE",
+          "isValidUser": true,
+          "mainLocation": "TLAKE",
+          "callNumber": "",
+          "adaptorid": "ALMA_01",
+          "organization": "TWINCITIES",
+          "holdingURL": "OVP",
+          "@id": "_:6",
+          "availabilityStatus": "check_holdings",
+          "subLocation": "Periodicals",
+          "holdId": ""
+        },
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "PER",
+          "ilsApiId": "",
+          "libraryCode": "CUMC",
+          "isValidUser": false,
+          "mainLocation": "CUMC",
+          "callNumber": "(A-085 )",
+          "adaptorid": "ALMA_01",
+          "organization": "CROOKSTON",
+          "holdingURL": "OVP",
+          "@id": "_:7",
+          "availabilityStatus": "available",
+          "subLocation": "Periodical",
+          "holdId": ""
+        },
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "UMDFL",
+          "ilsApiId": "",
+          "libraryCode": "DUMD",
+          "isValidUser": false,
+          "mainLocation": "DUMD",
+          "callNumber": "(PER4569.0000 )",
+          "adaptorid": "ALMA_01",
+          "organization": "DULUTH",
+          "holdingURL": "OVP",
+          "@id": "_:8",
+          "availabilityStatus": "available",
+          "subLocation": "Microfilm",
+          "holdId": ""
+        },
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "UMDPD",
+          "ilsApiId": "",
+          "libraryCode": "DUMD",
+          "isValidUser": false,
+          "mainLocation": "DUMD",
+          "callNumber": "(PER4569.0000 )",
+          "adaptorid": "ALMA_01",
+          "organization": "DULUTH",
+          "holdingURL": "OVP",
+          "@id": "_:9",
+          "availabilityStatus": "available",
+          "subLocation": "Periodical",
+          "holdId": ""
+        },
+        {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "subLocationCode": "PER",
+          "ilsApiId": "",
+          "libraryCode": "MBRIG",
+          "isValidUser": false,
+          "mainLocation": "MBRIG",
+          "callNumber": "",
+          "adaptorid": "ALMA_01",
+          "organization": "MORRIS",
+          "holdingURL": "OVP",
+          "@id": "_:10",
+          "availabilityStatus": "available",
+          "subLocation": "Periodical",
+          "holdId": ""
+        }
+      ],
+      "bestlocation": {
+        "matchForHoldings": [
+          {
+            "holdingRecord": "852##b",
+            "matchOn": "MainLocation"
+          }
+        ],
+        "mainLocation": "TBIOM",
+        "subLocationCode": "PER",
+        "callNumber": "(stack no.183 )",
+        "organization": "TWINCITIES",
+        "libraryCode": "TBIOM",
+        "@id": "_:0",
+        "availabilityStatus": "available",
+        "subLocation": "Periodicals",
+        "holdId": "",
+        "isValidUser": true
+      },
+      "feDisplayOtherLocations": false
+    },
+    "display": {
+      "lds05": [
+        "Master and use copy. Digital master created according to Benchmark for Faithful Digital Reproductions of Monographs and Serials, Version 1. Digital Library Federation, December 2002.",
+        "Mode of access: World Wide Web."
+      ],
+      "identifier": [
+        "$$CISSN$$V0028-0836"
+      ],
+      "creationdate": [
+        "1869  -"
+      ],
+      "availinstitution": [
+        "$$ICROOKSTON$$Savailable",
+        "$$IDULUTH$$Savailable",
+        "$$ITWINCITIES$$Savailable",
+        "$$IMORRIS$$Savailable"
+      ],
+      "subject": [
+        "Science -- Periodicals"
+      ],
+      "format": [
+        "volumes : illustrations (part color) portraits ; 26-28 cm.; volume"
+      ],
+      "description": [
+        "Some issues contain Buyer's guide.",
+        "Founded and for many years edited by Sir J. N. Lockyer.",
+        "Latest issue consulted: Volume 359, no. 6393 (24 Sept. 1992)."
+      ],
+      "availlibrary": [
+        "$$IDULUTH$$LDUMD$$1Periodical$$2(PER4569.0000 )$$Savailable$$X01UMN_INST$$YDUMD$$ZUMDPD$$P1$$OUMN_ALMA21500541490001701",
+        "$$IDULUTH$$LDUMD$$1Microfilm$$2(PER4569.0000 )$$Savailable$$X01UMN_INST$$YDUMD$$ZUMDFL$$P1$$OUMN_ALMA21494733690001701",
+        "$$IMORRIS$$LMBRIG$$1Periodical$$Savailable$$X01UMN_INST$$YMBRIG$$ZPER$$P2$$OUMN_ALMA21494733690001701",
+        "$$ITWINCITIES$$LTBIOM$$1Periodicals$$2(stack no.183 )$$Savailable$$X01UMN_INST$$YTBIOM$$ZPER$$P1$$OUMN_ALMA21532694660001701",
+        "$$ITWINCITIES$$LTMAGR$$1Periodicals$$Savailable$$X01UMN_INST$$YTMAGR$$ZPER$$P2$$OUMN_ALMA21532694660001701",
+        "$$ICROOKSTON$$LCUMC$$1Periodical$$2(A-085 )$$Savailable$$X01UMN_INST$$YCUMC$$ZPER$$P3$$OUMN_ALMA21532694660001701",
+        "$$ITWINCITIES$$LZMLAC$$1U of M Twin Cities$$Savailable$$X01UMN_INST$$YZMLAC$$ZOWL$$P4$$OUMN_ALMA21532694660001701",
+        "$$ITWINCITIES$$LZMLAC$$1Carleton (Use restricted to Elmer L. Andersen Library)$$2(A-085 )$$Savailable$$X01UMN_INST$$YZMLAC$$ZCARN$$P5$$OUMN_ALMA21532694660001701",
+        "$$ITWINCITIES$$LTVET$$1Periodicals$$Savailable$$X01UMN_INST$$YTVET$$ZPER$$P6$$OUMN_ALMA21532694660001701",
+        "$$IMORRIS$$LMBRIG$$1Periodical$$Savailable$$X01UMN_INST$$YMBRIG$$ZPER$$P7$$OUMN_ALMA21532694660001701",
+        "$$ITWINCITIES$$LTSCI$$1Sci/Eng Periodicals (Level B, S)$$2(Q1 .N2 )$$Scheck_holdings$$X01UMN_INST$$YTSCI$$ZPER$$P8$$OUMN_ALMA21532694660001701",
+        "$$ITWINCITIES$$LTLAKE$$1Periodicals$$Scheck_holdings$$X01UMN_INST$$YTLAKE$$ZPER$$P9$$OUMN_ALMA21532694660001701"
+      ],
+      "language": [
+        "eng"
+      ],
+      "source": [
+        "$$VUniversity of Minnesota Catalog (9958228480001701)$$OUMN_ALMA21500541490001701",
+        "$$VUniversity of Minnesota Catalog (9956901160001701)$$OUMN_ALMA21494733690001701",
+        "$$VUniversity of Minnesota Catalog (9965669300001701)$$OUMN_ALMA21532694660001701",
+        "$$VUniversity of Minnesota Catalog (9966238120001701)$$OUMN_ALMA51535278890001701"
+      ],
+      "title": [
+        "Nature."
+      ],
+      "type": [
+        "journal"
+      ],
+      "relation": [
+        "Vol. 229-246, Jan. 1971-Dec. 1973, issued in three parts. The two new parts, Nature: new biology, and Nature: physical sciences, continued the volume numbering of Nature in addition to carrying their own issue numbering. With vol. 246, Dec. 1973, Nature: new biology, and Nature: physical sciences, ceased publication and were absorbed by Nature.",
+        "Beginning in 1994 complemented by Nature structural biology, which consists of articles on structural biology for a more specialist audience.",
+        "Editorially independent from the journal Nature cell biology, but shares with that journal referees' comments on submitted articles, May 1999-"
+      ],
+      "contributor": [
+        "Norman Lockyer Sir, 1836-1920."
+      ],
+      "publisher": [
+        "London, etc. : Macmillan Journals Ltd. etc."
+      ],
+      "availpnx": [
+        "available"
+      ],
+      "lds02": [
+        "Norman Lockyer Sir, 1836-1920, (editor)"
+      ],
+      "lds01": [
+        "Science; Periodicals"
+      ]
+    },
+    "control": {
+      "recordid": [
+        "dedupmrg26753692"
+      ],
+      "sourceid": [
+        "$$VUMN_ALMA$$OUMN_ALMA21500541490001701",
+        "$$VUMN_ALMA$$OUMN_ALMA21494733690001701",
+        "$$VUMN_ALMA$$OUMN_ALMA21532694660001701",
+        "$$VUMN_ALMA$$OUMN_ALMA51535278890001701"
+      ],
+      "almaid": [
+        "$$V01UMN_INST:21500541490001701$$OUMN_ALMA21500541490001701",
+        "$$V01UMN_INST:21494733690001701$$OUMN_ALMA21494733690001701",
+        "$$V01UMN_INST:21532694660001701$$OUMN_ALMA21532694660001701",
+        "$$V01UMN_INST:51535278890001701$$OUMN_ALMA51535278890001701"
+      ],
+      "originalsourceid": [
+        "$$V01UMN_INST$$OUMN_ALMA21500541490001701",
+        "$$V01UMN_INST$$OUMN_ALMA21494733690001701",
+        "$$V01UMN_INST$$OUMN_ALMA21532694660001701",
+        "$$V01UMN_INST$$OUMN_ALMA51535278890001701"
+      ],
+      "sourceformat": [
+        "$$VMARC21$$OUMN_ALMA21500541490001701",
+        "$$VMARC21$$OUMN_ALMA21494733690001701",
+        "$$VMARC21$$OUMN_ALMA21532694660001701",
+        "$$VMARC21$$OUMN_ALMA51535278890001701"
+      ],
+      "sourcerecordid": [
+        "$$V21500541490001701$$OUMN_ALMA21500541490001701",
+        "$$V21494733690001701$$OUMN_ALMA21494733690001701",
+        "$$V21532694660001701$$OUMN_ALMA21532694660001701",
+        "$$V51535278890001701$$OUMN_ALMA51535278890001701"
+      ],
+      "sourcesystem": [
+        "$$VAlma$$OUMN_ALMA21500541490001701",
+        "$$VAlma$$OUMN_ALMA21494733690001701",
+        "$$VAlma$$OUMN_ALMA21532694660001701",
+        "$$VAlma$$OUMN_ALMA51535278890001701"
+      ]
+    },
+    "sort": {
+      "creationdate": [
+        "1869"
+      ],
+      "author": [
+        "Lockyer, Norman, Sir, 1836-1920."
+      ],
+      "title": [
+        "Nature."
+      ],
+      "lso01": [
+        "1869"
+      ]
+    },
+    "frbr": {
+      "t": [
+        1
+      ],
+      "k1": [
+        "$$Klockyer norman sir 1836 1920$$AA",
+        "$$Knature publishing group$$AA"
+      ],
+      "k2": [
+        "$$Knature london england$$ATO",
+        "$$Knature online$$ATO"
+      ],
+      "k3": [
+        "$$Knature~journal$$AT"
+      ]
+    },
+    "dedup": {
+      "f10": [
+        "london"
+      ],
+      "f20": [
+        "9958228480001701"
+      ],
+      "f1": [
+        "12037118"
+      ],
+      "f3": [
+        "00280836"
+      ],
+      "c1": [
+        "12037118"
+      ],
+      "c2": [
+        "0028-0836;0302-2889"
+      ],
+      "f5": [
+        "03022889"
+      ],
+      "c3": [
+        "nature"
+      ],
+      "f6": [
+        "1869"
+      ],
+      "c4": [
+        "london"
+      ],
+      "f7": [
+        "nature"
+      ],
+      "c5": [
+        "9958228480001701"
+      ],
+      "f8": [
+        "nature"
+      ],
+      "f9": [
+        "enk"
+      ],
+      "t": [
+        2
+      ]
+    },
+    "facets": {
+      "frbrtype": [
+        "6"
+      ],
+      "creatorcontrib": [
+        "Lockyer, Norman",
+        "Nature Publishing Group"
+      ],
+      "creationdate": [
+        "1869"
+      ],
+      "rsrctype": [
+        "journals"
+      ],
+      "classificationlcc": [
+        "Q - Science.–Science (General)–General"
+      ],
+      "language": [
+        "eng"
+      ],
+      "collection": [
+        "DUMD",
+        "MBRIG",
+        "TBIOM",
+        "TMAGR",
+        "CUMC",
+        "ZMLAC",
+        "TVET",
+        "TSCI",
+        "TLAKE"
+      ],
+      "lfc01": [
+        "Science"
+      ],
+      "prefilter": [
+        "journals"
+      ],
+      "toplevel": [
+        "online_resources$$ICROOKSTON",
+        "online_resources$$IDULUTH",
+        "online_resources$$ITWINCITIES",
+        "online_resources$$IMORRIS",
+        "available"
+      ],
+      "library": [
+        "DUMD",
+        "MBRIG",
+        "TBIOM",
+        "TMAGR",
+        "CUMC",
+        "ZMLAC",
+        "TVET",
+        "TSCI",
+        "TLAKE"
+      ],
+      "atoz": [
+        "N"
+      ],
+      "frbrgroupid": [
+        "30157779"
+      ],
+      "genre": [
+        "Periodicals",
+        "Périodiques"
+      ],
+      "topic": [
+        "Science–Periodicals",
+        "Science",
+        "Natural history",
+        "Sciences–Périodiques",
+        "Biologie–Périodiques",
+        "Physique–Périodiques",
+        "Natuurwetenschappen",
+        "CIENCIA–PUBLICACIONES PERIODICAS",
+        "NATURAL HISTORY",
+        "BIOLOGY",
+        "SCIENCE"
+      ],
+      "jtitle": [
+        "Nature."
+      ]
+    },
+    "enrichment": {
+      "classificationlcc": [
+        "Q1"
+      ]
+    },
+    "search": {
+      "sourceid": [
+        "UMN_ALMA"
+      ],
+      "creatorcontrib": [
+        "Norman,  Lockyer  Sir, 1836-1920.",
+        "Lockyer, N",
+        "Norman,  Lockyer  Sir, 1836-1920, editor.",
+        "Nature Publishing Group."
+      ],
+      "creationdate": [
+        "1869",
+        "9999"
+      ],
+      "subject": [
+        "Science Periodicals.",
+        "Science.",
+        "Periodicals.",
+        "Natural history.",
+        "Sciences Périodiques.",
+        "Biologie Périodiques.",
+        "Physique Périodiques.",
+        "Natuurwetenschappen.",
+        "CIENCIA PUBLICACIONES PERIODICAS.",
+        "NATURAL HISTORY.",
+        "BIOLOGY.",
+        "SCIENCE."
+      ],
+      "rsrctype": [
+        "journal"
+      ],
+      "lsr03": [
+        "004121395",
+        "umn_aleph004121395",
+        "004064136",
+        "umn_aleph004064136",
+        "000119501",
+        "umn_aleph000119501"
+      ],
+      "lsr02": [
+        "PER4569.0000",
+        "PER4569 0000",
+        "PER45690000",
+        "stack no.183",
+        "stack no 183",
+        "stackno.183",
+        "stackno183",
+        "A-085",
+        "A 085",
+        "A085",
+        "Q1 .N2",
+        "Q1 N2",
+        "Q1.N2",
+        "Q1N2"
+      ],
+      "lsr01": [
+        "1586310",
+        "7417753",
+        "47076528"
+      ],
+      "title": [
+        "Nature.",
+        "Nature (London, England)",
+        "Nature (Online)"
+      ],
+      "startdate": [
+        "18690101"
+      ],
+      "addtitle": [
+        "Nature (Online)",
+        "Nature: physical science",
+        "Nature: new biology",
+        "Nature structural biology",
+        "Nature cell biology",
+        "Nature",
+        "Nature. Physical science",
+        "Nature. New biology",
+        "Yeast genome directory.",
+        "Nature insight."
+      ],
+      "addsrcrecordid": [
+        "9958228480001701",
+        "9956901160001701",
+        "9965669300001701",
+        "9966238120001701"
+      ],
+      "recordid": [
+        "UMN_ALMA21500541490001701",
+        "UMN_ALMA21494733690001701",
+        "UMN_ALMA21532694660001701",
+        "UMN_ALMA51535278890001701"
+      ],
+      "general": [
+        "UMDPD",
+        "DUMD",
+        "UMDFL",
+        "MBRIG",
+        "PER",
+        "English",
+        "TBIOM",
+        "TMAGR",
+        "CUMC",
+        "ZMLAC",
+        "OWL",
+        "CARN",
+        "TVET",
+        "TSCI",
+        "TLAKE",
+        "CKB954925427238"
+      ],
+      "enddate": [
+        "99991231"
+      ],
+      "issn": [
+        "0028-0836",
+        "0302-2889",
+        "1476-4687"
+      ],
+      "alttitle": [
+        "Nature (Lond.)",
+        "Nature (London, England)",
+        "Nature weekly",
+        "Nature (Online)",
+        "Nature (Basingstoke, Online)",
+        "NATURE [LONDON]",
+        "Nature",
+        "International weekly journal of science"
+      ],
+      "lsr06": [
+        "[London, etc.] :",
+        "London :",
+        "[London] :"
+      ],
+      "scope": [
+        "DUMD_UMDPD",
+        "UMN_ALMA",
+        "DUMD",
+        "DUMD_UMDFL",
+        "MBRIG",
+        "MBRIG_PER",
+        "DULUTH",
+        "MORRIS",
+        "TBIOM",
+        "TBIOM_PER",
+        "TMAGR",
+        "TMAGR_PER",
+        "CUMC",
+        "CUMC_PER",
+        "ZMLAC",
+        "ZMLAC_OWL",
+        "ZMLAC_CARN",
+        "TVET",
+        "TVET_PER",
+        "TSCI",
+        "TSCI_PER",
+        "TLAKE",
+        "TLAKE_PER",
+        "TWINCITIES",
+        "CROOKSTON",
+        "AZDULUTH",
+        "AZTWINCITIES",
+        "AZCROOKSTON",
+        "AZMORRIS"
+      ],
+      "lsr05": [
+        "[Macmillan Journals Ltd. etc.]",
+        "Macmillan and Co",
+        "[Macmillan Journals Ltd., etc]",
+        "Nature Pub. Group"
+      ]
+    },
+    "links": {
+      "thumbnail": [
+        "$$Tgoogle_thumb"
+      ],
+      "backlink": [
+        "$$V$$Talma_linktomarc$$Elinktomarc$$OUMN_ALMA21500541490001701",
+        "$$V$$Talma_linktomarc$$Elinktomarc$$OUMN_ALMA21494733690001701",
+        "$$V$$Talma_linktomarc$$Elinktomarc$$OUMN_ALMA21532694660001701",
+        "$$V$$Talma_linktomarc$$Elinktomarc$$OUMN_ALMA51535278890001701"
+      ],
+      "linktorsrc": [
+        "$$Uhttp://www.nature.com/nature/$$Elinktorsrc"
+      ],
+      "addlink": [
+        "$$Uhttp://purl.oclc.org/DLF/benchrepro0212 $$DSystem details"
+      ]
+    },
+    "ranking": {
+      "booster2": [
+        "1"
+      ],
+      "booster1": [
+        "1"
+      ]
+    },
+    "addata": {
+      "date": [
+        "1869"
+      ],
+      "aulast": [
+        "Lockyer"
+      ],
+      "cop": [
+        "London, etc.]",
+        "London",
+        "London]"
+      ],
+      "coden": [
+        "NATUAS"
+      ],
+      "ristype": [
+        "JOUR"
+      ],
+      "format": [
+        "journal"
+      ],
+      "mis1": [
+        "21500541490001701",
+        "21494733690001701",
+        "21532694660001701",
+        "51535278890001701"
+      ],
+      "oclcid": [
+        "1586310",
+        "7417753",
+        "47076528"
+      ],
+      "aufirst": [
+        "Norman,"
+      ],
+      "addtitle": [
+        "Nature weekly",
+        "NATURE [LONDON]"
+      ],
+      "addau": [
+        "Lockyer, Norman",
+        "Nature Publishing Group"
+      ],
+      "lccn": [
+        "12037118",
+        "2005233250"
+      ],
+      "stitle": [
+        "Nature",
+        "NATURE (LOND)"
+      ],
+      "issn": [
+        "0028-0836"
+      ],
+      "genre": [
+        "journal"
+      ],
+      "jtitle": [
+        "Nature."
+      ],
+      "risdate": [
+        "1869"
+      ],
+      "pub": [
+        "[Macmillan Journals Ltd. etc.]",
+        "Macmillan and Co",
+        "[Macmillan Journals Ltd., etc]",
+        "Nature Pub. Group"
+      ]
+    },
+    "browse": {
+      "institution": [
+        "DULUTH",
+        "MORRIS",
+        "TWINCITIES",
+        "CROOKSTON",
+        "MORRIS"
+      ],
+      "author": [
+        "$$DLockyer, Norman, Sir, 1836-1920$$ELockyer, Norman, Sir, 1836-1920$$UDULUTH",
+        "$$DLockyer, Norman, Sir, 1836-1920$$ELockyer, Norman, Sir, 1836-1920$$UTWINCITIES",
+        "$$DLockyer, Norman, Sir, 1836-1920$$ELockyer, Norman, Sir, 1836-1920$$UCROOKSTON",
+        "$$DLockyer, Norman, Sir, 1836-1920$$ELockyer, Norman, Sir, 1836-1920$$UMORRIS",
+        "$$DNature Publishing Group$$ENature Publishing Group$$UDULUTH",
+        "$$DNature Publishing Group$$ENature Publishing Group$$UTWINCITIES",
+        "$$DNature Publishing Group$$ENature Publishing Group$$UCROOKSTON",
+        "$$DNature Publishing Group$$ENature Publishing Group$$UMORRIS"
+      ],
+      "subject": [
+        "$$DScience -- Periodicals$$EScience Periodicals$$UDULUTH",
+        "$$DScience -- Periodicals$$EScience Periodicals$$UMORRIS",
+        "$$DScience -- Periodicals$$EScience Periodicals$$UTWINCITIES",
+        "$$DScience -- Periodicals$$EScience Periodicals$$UCROOKSTON",
+        "$$DScience$$EScience$$UTWINCITIES",
+        "$$DScience$$EScience$$UCROOKSTON",
+        "$$DScience$$EScience$$UMORRIS",
+        "$$DPeriodicals$$EPeriodicals$$UTWINCITIES",
+        "$$DPeriodicals$$EPeriodicals$$UCROOKSTON",
+        "$$DPeriodicals$$EPeriodicals$$UMORRIS",
+        "$$DScience$$EScience$$UDULUTH",
+        "$$DNatural history$$ENatural history$$UDULUTH",
+        "$$DNatural history$$ENatural history$$UTWINCITIES",
+        "$$DNatural history$$ENatural history$$UCROOKSTON",
+        "$$DNatural history$$ENatural history$$UMORRIS",
+        "$$DSciences -- Périodiques$$ESciences Périodiques$$UDULUTH",
+        "$$DSciences -- Périodiques$$ESciences Périodiques$$UTWINCITIES",
+        "$$DSciences -- Périodiques$$ESciences Périodiques$$UCROOKSTON",
+        "$$DSciences -- Périodiques$$ESciences Périodiques$$UMORRIS",
+        "$$DBiologie -- Périodiques$$EBiologie Périodiques$$UDULUTH",
+        "$$DBiologie -- Périodiques$$EBiologie Périodiques$$UTWINCITIES",
+        "$$DBiologie -- Périodiques$$EBiologie Périodiques$$UCROOKSTON",
+        "$$DBiologie -- Périodiques$$EBiologie Périodiques$$UMORRIS",
+        "$$DPhysique -- Périodiques$$EPhysique Périodiques$$UDULUTH",
+        "$$DPhysique -- Périodiques$$EPhysique Périodiques$$UTWINCITIES",
+        "$$DPhysique -- Périodiques$$EPhysique Périodiques$$UCROOKSTON",
+        "$$DPhysique -- Périodiques$$EPhysique Périodiques$$UMORRIS",
+        "$$DScience$$EScience$$Tfast$$I(OCoLC)fst01108176$$UDULUTH",
+        "$$DScience$$EScience$$Tfast$$I(OCoLC)fst01108176$$UTWINCITIES",
+        "$$DScience$$EScience$$Tfast$$I(OCoLC)fst01108176$$UCROOKSTON",
+        "$$DScience$$EScience$$Tfast$$I(OCoLC)fst01108176$$UMORRIS",
+        "$$DNatuurwetenschappen$$ENatuurwetenschappen$$Tgtt$$UDULUTH",
+        "$$DNatuurwetenschappen$$ENatuurwetenschappen$$Tgtt$$UTWINCITIES",
+        "$$DNatuurwetenschappen$$ENatuurwetenschappen$$Tgtt$$UCROOKSTON",
+        "$$DNatuurwetenschappen$$ENatuurwetenschappen$$Tgtt$$UMORRIS",
+        "$$DCIENCIA -- PUBLICACIONES PERIODICAS$$ECIENCIA PUBLICACIONES PERIODICAS$$Trenib$$UDULUTH",
+        "$$DCIENCIA -- PUBLICACIONES PERIODICAS$$ECIENCIA PUBLICACIONES PERIODICAS$$Trenib$$UTWINCITIES",
+        "$$DCIENCIA -- PUBLICACIONES PERIODICAS$$ECIENCIA PUBLICACIONES PERIODICAS$$Trenib$$UCROOKSTON",
+        "$$DCIENCIA -- PUBLICACIONES PERIODICAS$$ECIENCIA PUBLICACIONES PERIODICAS$$Trenib$$UMORRIS",
+        "$$DNATURAL HISTORY$$ENATURAL HISTORY$$Tunbist$$UDULUTH",
+        "$$DNATURAL HISTORY$$ENATURAL HISTORY$$Tunbist$$UTWINCITIES",
+        "$$DNATURAL HISTORY$$ENATURAL HISTORY$$Tunbist$$UCROOKSTON",
+        "$$DNATURAL HISTORY$$ENATURAL HISTORY$$Tunbist$$UMORRIS",
+        "$$DBIOLOGY$$EBIOLOGY$$Tunbist$$UDULUTH",
+        "$$DBIOLOGY$$EBIOLOGY$$Tunbist$$UTWINCITIES",
+        "$$DBIOLOGY$$EBIOLOGY$$Tunbist$$UCROOKSTON",
+        "$$DBIOLOGY$$EBIOLOGY$$Tunbist$$UMORRIS",
+        "$$DSCIENCE$$ESCIENCE$$Tunbist$$UDULUTH",
+        "$$DSCIENCE$$ESCIENCE$$Tunbist$$UTWINCITIES",
+        "$$DSCIENCE$$ESCIENCE$$Tunbist$$UCROOKSTON",
+        "$$DSCIENCE$$ESCIENCE$$Tunbist$$UMORRIS",
+        "$$DPeriodicals$$EPeriodicals$$UDULUTH",
+        "$$DPeriodicals$$EPeriodicals$$Tfast$$I(OCoLC)fst01411641$$UDULUTH",
+        "$$DPeriodicals$$EPeriodicals$$Tfast$$I(OCoLC)fst01411641$$UTWINCITIES",
+        "$$DPeriodicals$$EPeriodicals$$Tfast$$I(OCoLC)fst01411641$$UCROOKSTON",
+        "$$DPeriodicals$$EPeriodicals$$Tfast$$I(OCoLC)fst01411641$$UMORRIS"
+      ],
+      "callnumber": [
+        "$$IDULUTH$$DPER4569.0000$$Eper4569.0000$$T8",
+        "$$IMORRIS$$T5",
+        "$$ITWINCITIES$$Dstack no.183$$Estack no.183$$T4",
+        "$$ITWINCITIES$$T5",
+        "$$ICROOKSTON$$DA-085$$Ea-085$$T4",
+        "$$ITWINCITIES$$T4",
+        "$$ITWINCITIES$$DA-085$$EA                 085$$T0",
+        "$$IMORRIS$$T5",
+        "$$ITWINCITIES$$DQ1 .N2$$EQ    1            N 2$$T0"
+      ],
+      "title": [
+        "$$DNature$$ENature$$UDULUTH",
+        "$$DNature$$ENature$$UMORRIS",
+        "$$DNature (London, England)$$ENature (London, England)$$UDULUTH",
+        "$$DNature (London, England)$$ENature (London, England)$$UMORRIS",
+        "$$DNature$$ENature$$UTWINCITIES",
+        "$$DNature$$ENature$$UCROOKSTON",
+        "$$DNature weekly$$ENature weekly$$UTWINCITIES",
+        "$$DNature weekly$$ENature weekly$$UCROOKSTON",
+        "$$DNature weekly$$ENature weekly$$UMORRIS",
+        "$$DYeast genome directory$$EYeast genome directory$$UTWINCITIES",
+        "$$DYeast genome directory$$EYeast genome directory$$UCROOKSTON",
+        "$$DYeast genome directory$$EYeast genome directory$$UMORRIS",
+        "$$DNature insight$$ENature insight$$UTWINCITIES",
+        "$$DNature insight$$ENature insight$$UCROOKSTON",
+        "$$DNature insight$$ENature insight$$UMORRIS",
+        "$$DNature (Online)$$ENature (Online)$$UDULUTH",
+        "$$DNature (Online)$$ENature (Online)$$UTWINCITIES",
+        "$$DNature (Online)$$ENature (Online)$$UCROOKSTON",
+        "$$DNature (Online)$$ENature (Online)$$UMORRIS",
+        "$$DNATURE [LONDON]$$ENATURE [LONDON]$$UDULUTH",
+        "$$DNATURE [LONDON]$$ENATURE [LONDON]$$UTWINCITIES",
+        "$$DNATURE [LONDON]$$ENATURE [LONDON]$$UCROOKSTON",
+        "$$DNATURE [LONDON]$$ENATURE [LONDON]$$UMORRIS",
+        "$$DInternational weekly journal of science$$EInternational weekly journal of science$$UDULUTH",
+        "$$DInternational weekly journal of science$$EInternational weekly journal of science$$UTWINCITIES",
+        "$$DInternational weekly journal of science$$EInternational weekly journal of science$$UCROOKSTON",
+        "$$DInternational weekly journal of science$$EInternational weekly journal of science$$UMORRIS"
+      ]
+    }
+  },
+  "@id": "https://umn-primoalmasb.hosted.exlibrisgroup.com/primo_library/libweb/webservices/rest/v1/pnxs",
+  "beaconO22": "319",
+  "rtaInProgress": false
+}

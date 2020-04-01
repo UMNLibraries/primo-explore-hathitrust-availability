@@ -1,1 +1,55 @@
-{"oclc:3756332":{"records":{"007158726":{"recordURL":"https:\/\/catalog.hathitrust.org\/Record\/007158726","titles":["Charles Darwin and the Origin of species; addresses, etc., in America and England in the year of the two anniversaries,"],"isbns":[],"issns":[],"oclcs":["3756332"],"lccns":["10035469"],"publishDates":["1909"]}},"items":[{"orig":"Princeton University","fromRecord":"007158726","htid":"njp.32101071982613","itemURL":"https:\/\/hdl.handle.net\/2027\/njp.32101071982613","rightsCode":"pd","lastUpdate":"20140806","enumcron":false,"usRightsString":"Full view"},{"orig":"University of California","fromRecord":"007158726","htid":"uc2.ark:\/13960\/t9668b513","itemURL":"https:\/\/hdl.handle.net\/2027\/uc2.ark:\/13960\/t9668b513","rightsCode":"pd","lastUpdate":"20140808","enumcron":false,"usRightsString":"Full view"},{"orig":"University of California","fromRecord":"007158726","htid":"uc1.31822011346285","itemURL":"https:\/\/hdl.handle.net\/2027\/uc1.31822011346285","rightsCode":"pd","lastUpdate":"20140808","enumcron":false,"usRightsString":"Full view"}]}}
+{
+  "oclc:3756332": {
+    "records": {
+      "007158726": {
+        "recordURL": "https:\/\/catalog.hathitrust.org\/Record\/007158726",
+        "titles": [
+          "Charles Darwin and the Origin of species; addresses, etc., in America and England in the year of the two anniversaries,"
+        ],
+        "isbns": [],
+        "issns": [],
+        "oclcs": [
+          "3756332"
+        ],
+        "lccns": [
+          "10035469"
+        ],
+        "publishDates": [
+          "1909"
+        ]
+      }
+    },
+    "items": [
+      {
+        "orig": "Princeton University",
+        "fromRecord": "007158726",
+        "htid": "njp.32101071982613",
+        "itemURL": "https:\/\/hdl.handle.net\/2027\/njp.32101071982613",
+        "rightsCode": "pd",
+        "lastUpdate": "20140806",
+        "enumcron": false,
+        "usRightsString": "Full view"
+      },
+      {
+        "orig": "University of California",
+        "fromRecord": "007158726",
+        "htid": "uc2.ark:\/13960\/t9668b513",
+        "itemURL": "https:\/\/hdl.handle.net\/2027\/uc2.ark:\/13960\/t9668b513",
+        "rightsCode": "pd",
+        "lastUpdate": "20140808",
+        "enumcron": false,
+        "usRightsString": "Full view"
+      },
+      {
+        "orig": "University of California",
+        "fromRecord": "007158726",
+        "htid": "uc1.31822011346285",
+        "itemURL": "https:\/\/hdl.handle.net\/2027\/uc1.31822011346285",
+        "rightsCode": "pd",
+        "lastUpdate": "20140808",
+        "enumcron": false,
+        "usRightsString": "Full view"
+      }
+    ]
+  }
+}
