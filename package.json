@@ -1,6 +1,6 @@
 {
   "name": "primo-explore-hathitrust-availability",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "Adds HathiTrust links to Primo search results",
   "main": "index.js",
   "scripts": {
