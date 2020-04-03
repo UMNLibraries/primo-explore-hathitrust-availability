@@ -16,11 +16,11 @@ angular
   .factory("hathiTrust", [
     "$http",
     "$q",
-    function($http, $q) {
+    "hathiTrustBaseUrl",
+    function($http, $q, hathiTrustBaseUrl) {
       var svc = {};
-      var hathiTrustBaseUrl =
-        "https://catalog.hathitrust.org/api/volumes/brief/json/";
-      var lookup = function(ids, callback) {
+
+      var lookup = function(ids) {
         if (ids.length) {
           var hathiTrustLookupUrl = hathiTrustBaseUrl + ids.join("|");
           return $http
@@ -104,21 +104,21 @@ angular
         );
       };
 
+      var formatLink = function(link) {
+        return self.entityId ? link + "?signon=swle:" + self.entityId : link;
+      };
+
       var updateHathiTrustAvailability = function() {
         var hathiTrustIds = (
           self.prmSearchResultAvailabilityLine.result.pnx.addata.oclcid || []
         ).map(function(id) {
           return "oclc:" + id;
         });
-        if (self.ignoreCopyright) {
-          hathiTrust.findRecord(hathiTrustIds).then(function(res) {
-            self.fullTextLink = res;
-          });
-        } else {
-          hathiTrust.findFullViewRecord(hathiTrustIds).then(function(res) {
-            self.fullTextLink = res;
-          });
-        }
+        hathiTrust[self.ignoreCopyright ? "findRecord" : "findFullViewRecord"](
+          hathiTrustIds
+        ).then(function(res) {
+          if (res) self.fullTextLink = formatLink(res);
+        });
       };
     }
   ])
@@ -127,6 +127,7 @@ angular
       prmSearchResultAvailabilityLine: "^prmSearchResultAvailabilityLine"
     },
     bindings: {
+      entityId: "@",
       ignoreCopyright: "<",
       hideOnline: "<",
       msg: "@?"

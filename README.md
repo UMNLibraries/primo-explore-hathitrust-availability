@@ -59,6 +59,14 @@ If you want to display full-text links to *any* HathiTrust record, regardless of
 <hathi-trust-availability ignore-copyright="true"></hathi-trust-availability>
 ```
 
+If you're a partner institution and you want the availability links to use HathiTrust's [automatic login](https://www.hathitrust.org/automatic_login), add your SAML IdP's entity ID:
+
+```html
+<hathi-trust-availability 
+    ignore-copyright="true" 
+    entity-id="https://shibboleth.umich.edu/idp/shibboleth"
+></hathi-trust-availability>
+```
 
 ## Running tests
 1. Clone the repo
