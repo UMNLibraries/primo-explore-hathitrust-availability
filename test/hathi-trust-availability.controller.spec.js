@@ -60,7 +60,32 @@ describe("hathiTrustAvailabilityController", function() {
     expect(ctrl.fullTextLink).toBe(link);
   });
 
-  it("should not call the hathTrust service for online resoureces when disabled", function() {
+  it("should not call the hathiTrust service for journals when 'hide-if-journal'", function() {
+    prmSearchResultAvailabilityLine.result = getJSONFixture(
+      "online_result.json"  // NOTE: pnx.addata.format[0] for this is already 'journal'
+    );
+
+    spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
+      then: function(callback) {
+        return callback(true);
+      }
+    });
+    spyOn(hathiTrust, "findRecord").and.returnValue({
+      then: function(callback) {
+        return callback(true);
+      }
+    });
+
+    bindings.hideIfJournal = true;
+
+    ctrl = $componentController("hathiTrustAvailability", null, bindings);
+    ctrl.$onInit();
+    expect(hathiTrust.findFullViewRecord).not.toHaveBeenCalled();
+    expect(hathiTrust.findRecord).not.toHaveBeenCalled();
+  });
+
+
+  it("should not call the hathiTrust service for online resoureces when disabled", function() {
     prmSearchResultAvailabilityLine.result = getJSONFixture(
       "online_result.json"
     );
