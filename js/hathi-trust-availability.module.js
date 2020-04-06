@@ -90,7 +90,7 @@ angular
         if (isOnline() && self.hideOnline) { return; }
 
         // prevent appearance/request iff 'hide-if-journal'
-        if(isJournal() && self.hideIfJournal){ return; }
+        if (isJournal() && self.hideIfJournal){ return; }
 
         // look for full text at HathiTrust 
         updateHathiTrustAvailability();
@@ -102,7 +102,7 @@ angular
 
       var isJournal = function() {
         var format =  self.prmSearchResultAvailabilityLine.result.pnx.addata.format[0];
-        return format.toLowerCase().includes("journal");
+        return !(format.toLowerCase().indexOf("journal") == -1); // format.includes("Journal")
       };
 
       var isOnline = function() {
