@@ -60,7 +60,21 @@ describe("hathiTrustAvailabilityController", function() {
     expect(ctrl.fullTextLink).toBe(link);
   });
 
-  it("should not call the hathTrust service for online resoureces when disabled", function() {
+  it("should call the hathTrust service for online resoureces by default", function() {
+    prmSearchResultAvailabilityLine.result = getJSONFixture(
+      "online_result.json"
+    );
+    spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
+      then: function(callback) {
+        return callback(true);
+      }
+    });
+    ctrl = $componentController("hathiTrustAvailability", null, bindings);
+    ctrl.$onInit();
+    expect(hathiTrust.findFullViewRecord).toHaveBeenCalled();
+  });
+
+  it("should not call the hathiTrust service for online resoureces when disabled", function() {
     prmSearchResultAvailabilityLine.result = getJSONFixture(
       "online_result.json"
     );
@@ -77,18 +91,41 @@ describe("hathiTrustAvailabilityController", function() {
     expect(hathiTrust.findFullViewRecord).not.toHaveBeenCalled();
   });
 
-  it("should call the hathTrust service for online resoureces by default", function() {
-    prmSearchResultAvailabilityLine.result = getJSONFixture(
-      "online_result.json"
-    );
+  it("should call the hathiTrust service for non-journals, when 'hide-if-journal'", function() {
+    
+    // set conditions such that 'hide-if-journal' is true BUT the item format is not a journal
+    prmSearchResultAvailabilityLine.result = getJSONFixture("online_result.json");
+    prmSearchResultAvailabilityLine.result.pnx.addata.format[0] = 'book'; 
+    bindings.hideIfJournal = true;
+    
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
       then: function(callback) {
         return callback(true);
       }
     });
+    
+
     ctrl = $componentController("hathiTrustAvailability", null, bindings);
     ctrl.$onInit();
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalled();
+  });
+
+  it("should not call the hathiTrust service for journals when 'hide-if-journal'", function() {
+    
+    // set conditions such that 'hide-if-journal' is true AND the item format is a journal
+    prmSearchResultAvailabilityLine.result = getJSONFixture("online_result.json");
+    prmSearchResultAvailabilityLine.result.pnx.addata.format[0] = 'journal'; 
+    bindings.hideIfJournal = true;
+    
+    spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
+      then: function(callback) {
+        return callback(true);
+      }
+    });    
+
+    ctrl = $componentController("hathiTrustAvailability", null, bindings);
+    ctrl.$onInit();
+    expect(hathiTrust.findFullViewRecord).not.toHaveBeenCalled();
   });
 
   it("should accept a custom availability message", function() {

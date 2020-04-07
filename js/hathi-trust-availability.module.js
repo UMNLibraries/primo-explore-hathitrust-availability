@@ -85,13 +85,24 @@ angular
 
       self.$onInit = function() {
         setDefaults();
-        if (!(isOnline() && self.hideOnline)) {
-          updateHathiTrustAvailability();
-        }
+
+        // prevent appearance/request iff 'hide-online' 
+        if (isOnline() && self.hideOnline) { return; }
+
+        // prevent appearance/request iff 'hide-if-journal'
+        if (isJournal() && self.hideIfJournal){ return; }
+
+        // look for full text at HathiTrust 
+        updateHathiTrustAvailability();
       };
 
       var setDefaults = function() {
         if (!self.msg) self.msg = "Full Text Available at HathiTrust";
+      };
+
+      var isJournal = function() {
+        var format =  self.prmSearchResultAvailabilityLine.result.pnx.addata.format[0];
+        return !(format.toLowerCase().indexOf("journal") == -1); // format.includes("Journal")
       };
 
       var isOnline = function() {
@@ -129,6 +140,7 @@ angular
     bindings: {
       entityId: "@",
       ignoreCopyright: "<",
+      hideIfJournal: "<",
       hideOnline: "<",
       msg: "@?"
     },
