@@ -1,4 +1,4 @@
-describe("hathiTrustAvailabilityController", function() {
+describe("hathiTrustAvailabilityController", function () {
   beforeEach(module("hathiTrustAvailability"));
   var $componentController,
     $rootScope,
@@ -9,21 +9,16 @@ describe("hathiTrustAvailabilityController", function() {
     expectedIds,
     bindings;
   var myIconSrc = "my/icon/file.svg";
-  beforeEach(function() {
-    module(function($provide) {
+  beforeEach(function () {
+    module(function ($provide) {
       $provide.value("hathiTrustIconPath", myIconSrc);
     });
   });
 
-  beforeEach(inject(function(
-    _$componentController_,
-    _$rootScope_,
-    _hathiTrust_,
-    $injector
-  ) {
-    $componentController = _$componentController_;
-    $rootScope = _$rootScope_;
-    hathiTrust = _hathiTrust_;
+  beforeEach(inject(function ($injector) {
+    $componentController = $injector.get("$componentController");
+    $rootScope = $injector.get("$rootScope");
+    hathiTrust = $injector.get("hathiTrust");
     $timeout = $injector.get("$timeout");
     $q = $injector.get("$q");
     expectedIds = ["oclc:1586310", "oclc:7417753", "oclc:47076528"];
@@ -33,55 +28,55 @@ describe("hathiTrustAvailabilityController", function() {
     );
     bindings = {
       hathiTrust: hathiTrust,
-      prmSearchResultAvailabilityLine: prmSearchResultAvailabilityLine
+      prmSearchResultAvailabilityLine: prmSearchResultAvailabilityLine,
     };
   }));
 
-  it("should pass the OCLC numbers to the hathiTrust service", function() {
+  it("should pass the OCLC numbers to the hathiTrust service", function () {
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
-      then: function(callback) {
+      then: function (callback) {
         return callback(true);
-      }
+      },
     });
     ctrl = $componentController("hathiTrustAvailability", null, bindings);
     ctrl.$onInit();
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalledWith(expectedIds);
   });
 
-  it("should update the hathiTrustFullText link if available", function() {
+  it("should update the hathiTrustFullText link if available", function () {
     var link = "http://example.com";
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
-      then: function(callback) {
+      then: function (callback) {
         return callback(link);
-      }
+      },
     });
     ctrl = $componentController("hathiTrustAvailability", null, bindings);
     ctrl.$onInit();
     expect(ctrl.fullTextLink).toBe(link);
   });
 
-  it("should call the hathTrust service for online resoureces by default", function() {
+  it("should call the hathTrust service for online resoureces by default", function () {
     prmSearchResultAvailabilityLine.result = getJSONFixture(
       "online_result.json"
     );
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
-      then: function(callback) {
+      then: function (callback) {
         return callback(true);
-      }
+      },
     });
     ctrl = $componentController("hathiTrustAvailability", null, bindings);
     ctrl.$onInit();
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalled();
   });
 
-  it("should not call the hathiTrust service for online resoureces when disabled", function() {
+  it("should not call the hathiTrust service for online resoureces when disabled", function () {
     prmSearchResultAvailabilityLine.result = getJSONFixture(
       "online_result.json"
     );
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
-      then: function(callback) {
+      then: function (callback) {
         return callback(true);
-      }
+      },
     });
 
     bindings.hideOnline = true;
@@ -91,44 +86,45 @@ describe("hathiTrustAvailabilityController", function() {
     expect(hathiTrust.findFullViewRecord).not.toHaveBeenCalled();
   });
 
-  it("should call the hathiTrust service for non-journals, when 'hide-if-journal'", function() {
-    
+  it("should call the hathiTrust service for non-journals, when 'hide-if-journal'", function () {
     // set conditions such that 'hide-if-journal' is true BUT the item format is not a journal
-    prmSearchResultAvailabilityLine.result = getJSONFixture("online_result.json");
-    prmSearchResultAvailabilityLine.result.pnx.addata.format[0] = 'book'; 
+    prmSearchResultAvailabilityLine.result = getJSONFixture(
+      "online_result.json"
+    );
+    prmSearchResultAvailabilityLine.result.pnx.addata.format[0] = "book";
     bindings.hideIfJournal = true;
-    
+
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
-      then: function(callback) {
+      then: function (callback) {
         return callback(true);
-      }
+      },
     });
-    
 
     ctrl = $componentController("hathiTrustAvailability", null, bindings);
     ctrl.$onInit();
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalled();
   });
 
-  it("should not call the hathiTrust service for journals when 'hide-if-journal'", function() {
-    
+  it("should not call the hathiTrust service for journals when 'hide-if-journal'", function () {
     // set conditions such that 'hide-if-journal' is true AND the item format is a journal
-    prmSearchResultAvailabilityLine.result = getJSONFixture("online_result.json");
-    prmSearchResultAvailabilityLine.result.pnx.addata.format[0] = 'journal'; 
+    prmSearchResultAvailabilityLine.result = getJSONFixture(
+      "online_result.json"
+    );
+    prmSearchResultAvailabilityLine.result.pnx.addata.format[0] = "journal";
     bindings.hideIfJournal = true;
-    
+
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
-      then: function(callback) {
+      then: function (callback) {
         return callback(true);
-      }
-    });    
+      },
+    });
 
     ctrl = $componentController("hathiTrustAvailability", null, bindings);
     ctrl.$onInit();
     expect(hathiTrust.findFullViewRecord).not.toHaveBeenCalled();
   });
 
-  it("should accept a custom availability message", function() {
+  it("should accept a custom availability message", function () {
     var myMsg = "FULL TEXT FROM HATHITRUST, YAY!";
     bindings.msg = myMsg;
     ctrl = $componentController("hathiTrustAvailability", null, bindings);
@@ -136,26 +132,26 @@ describe("hathiTrustAvailabilityController", function() {
     expect(ctrl.msg).toBe(myMsg);
   });
 
-  it("should use a default availability message when not provided", function() {
+  it("should use a default availability message when not provided", function () {
     var expectedDefaultMsg = "Full Text Available at HathiTrust";
     ctrl = $componentController("hathiTrustAvailability", null, bindings);
     ctrl.$onInit();
     expect(ctrl.msg).toBe(expectedDefaultMsg);
   });
 
-  it("should call hathiTrust.findRecord() when ignoreCopyright=true", function() {
+  it("should call hathiTrust.findRecord() when ignoreCopyright=true", function () {
     prmSearchResultAvailabilityLine.result = getJSONFixture(
       "online_result.json"
     );
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
-      then: function(callback) {
+      then: function (callback) {
         return callback(true);
-      }
+      },
     });
     spyOn(hathiTrust, "findRecord").and.returnValue({
-      then: function(callback) {
+      then: function (callback) {
         return callback(true);
-      }
+      },
     });
 
     bindings.ignoreCopyright = true;
@@ -166,13 +162,13 @@ describe("hathiTrustAvailabilityController", function() {
     expect(hathiTrust.findRecord).toHaveBeenCalled();
   });
 
-  it("should append an 'signon' parameter when an entityId is defined", function() {
+  it("should append an 'signon' parameter when an entityId is defined", function () {
     var link = "http://example.com";
     var entityId = "https://example.edu/idp/shibboleth";
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
-      then: function(callback) {
+      then: function (callback) {
         return callback(link);
-      }
+      },
     });
 
     bindings.entityId = entityId;

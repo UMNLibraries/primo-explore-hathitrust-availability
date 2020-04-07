@@ -48,7 +48,7 @@ angular
             }
           })
           .catch(function(e) {
-            console.log(e);
+            console.error(e);
           });
       };
 
@@ -71,7 +71,7 @@ angular
         return lookup(ids)
           .then(handleResponse)
           .catch(function(e) {
-            console.log(e);
+            console.error(e);
           });
       };
 
