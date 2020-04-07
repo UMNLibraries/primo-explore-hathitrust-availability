@@ -41,17 +41,28 @@ import 'primo-explore-hathitrust-availability';
 
 The idea here is to allow multiple custom components to be added to the `prmSearchResultAvailabilityLineAfter` rather than attempting to redefine it. 
 
+### Customizing the Availability Message
+The default availability message is "Full Text Available at HathiTrust". You can override this by setting the `msg` attribute:
+
+```html
+<hathi-trust-availability hide-online="true" msg="WOW, HathiTrust! Lucky you!"
+></hathi-trust-availability>
+```
+
+### Selectively Suppressing Full-text Links
 By default, the component will display full-text links for any resource. If you want it avoid looking for full-text availability on records for which you already have an online copy, you can add a `hide-online=tue` attribute to the component: 
 
 ```html
 <hathi-trust-availability hide-online="true"></hathi-trust-availability>
 ```
 
-The default availability message is "Full Text Available at HathiTrust". You can override this by setting the `msg` attribute:
+As of version *2.6* you can optionally suppress full-test links for journals: 
 
 ```html
-<hathi-trust-availability hide-online="true" msg="WOW, HathiTrust! Lucky you!"></hathi-trust-availability>
+<hathi-trust-availability hide-if-journal="true"></hathi-trust-availability>
 ```
+
+### Ignoring Copyright Status (version 2.4+)
 
 If you want to display full-text links to *any* HathiTrust record, regardless of copyright status, use the `ignore-copyright` attribute: 
 
