@@ -123,7 +123,7 @@ angular
         var hathiTrustIds = (
           self.prmSearchResultAvailabilityLine.result.pnx.addata.oclcid || []
         ).map(function(id) {
-          return "oclc:" + id;
+          return "oclc:" + id.toLowerCase().replace("(ocolc)", "");
         });
         hathiTrust[self.ignoreCopyright ? "findRecord" : "findFullViewRecord"](
           hathiTrustIds
