@@ -1,0 +1,203 @@
+{
+  "beaconO22": "160",
+  "context": "L",
+  "@id": "https://na04.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/991038089909703276",
+  "adaptor": "Local Search Engine",
+  "pnx": {
+    "display": {
+      "source": ["Alma"],
+      "type": ["book"],
+      "language": ["eng"],
+      "title": [
+        "On the origin of species by means of natural selection, or, The preservation of favoured races in the struggle for life / by Charles Darwin, M.A., F.R.S., &c."
+      ],
+      "subject": ["Evolution", "Natural selection"],
+      "format": ["xxi, [1], 593, [1], 32 pages : 1 illustration ; 21 cm"],
+      "identifier": ["$$COCLC$$V(OCoLC)1185554"],
+      "creationdate": ["1866"],
+      "lds01": [
+        "(OCoLC)1185554 (OCoLC)316173611 (OCoLC)794832420",
+        "4771324-01van_inst",
+        "(SIRSI)4771324",
+        "(Sirsi) a4771324"
+      ],
+      "creator": ["Darwin, Charles, 1809-1882.$$QDarwin, Charles, 1809-1882"],
+      "publisher": ["London : John Murray, Albemarle Street"],
+      "mms": ["991038089909703276"],
+      "contributor": [
+        "Murray, John, 1808-1892, publisher.$$QMurray, John",
+        "William Clowes and Sons, printer.$$QWilliam Clowes and Sons"
+      ],
+      "addtitle": ["Preservation of favoured races in the struggle for life"],
+      "edition": [
+        "Fourth edition, with additions and corrections. (8th thousand.)."
+      ],
+      "relation": [
+        "$$Cform$$VOnline version: Darwin, Charles, 1809-1882. On the origin of species by means of natural selection. 4th ed., with additions and corrections. London, John Murray, 1866$$QOn the origin of species by means of natural selection."
+      ],
+      "unititle": ["On the origin of species"],
+      "includes": [
+        "Darwin, Charles, 1809-1882. On the origin of species$$QDarwin, Charles, 1809-1882. On the origin of species"
+      ],
+      "place": ["London :"],
+      "lds05": [
+        "Includes index.",
+        "Vanderbilt University Special Collections copy has been rebound in a library binding; includes bookplate for Peabody College on front pastedown. Copy was stolen from the Peabody Library sometime between 1963 and 1971 and was recovered at a book sale in Carbondale, IL in 1971 by Mr. William H. Edwards. Mr. Edwards attempted to return the book immediately, but was instructed by the Librarian at Peabody College to keep it. He retained it until 2016, when he offered again. This time its value was recognized and it was accepted. We thank Mr. Edwards for his generosity and tenacity."
+      ],
+      "version": ["1"]
+    },
+    "control": {
+      "sourcerecordid": ["991038089909703276"],
+      "recordid": ["alma991038089909703276"],
+      "sourceid": "alma",
+      "originalsourceid": ["4771324-01van_inst"],
+      "sourcesystem": ["ILS"],
+      "sourceformat": ["MARC21"],
+      "score": ["1.0"]
+    },
+    "addata": {
+      "aulast": ["Darwin"],
+      "aufirst": ["Charles"],
+      "auinit": ["C"],
+      "au": ["Darwin, Charles"],
+      "addau": ["Murray, John"],
+      "addtitle": ["Preservation of favoured races in the struggle for life"],
+      "date": ["1866"],
+      "cop": ["London"],
+      "pub": ["John Murray, Albemarle Street"],
+      "oclcid": ["(ocolc)1185554", "(ocolc)316173611", "(ocolc)794832420"],
+      "edition": [
+        "Fourth edition, with additions and corrections. (8th thousand.)."
+      ],
+      "format": ["book"],
+      "genre": ["book"],
+      "ristype": ["BOOK"],
+      "btitle": [
+        "On the origin of species by means of natural selection, or, The preservation of favoured races in the struggle for life"
+      ]
+    },
+    "sort": {
+      "title": [
+        "On the origin of species by means of natural selection, or, The preservation of favoured races in the struggle for life / by Charles Darwin, M.A., F.R.S., &c."
+      ],
+      "author": ["Darwin, Charles, 1809-1882."],
+      "creationdate": ["1866"]
+    },
+    "facets": {
+      "frbrtype": ["6"],
+      "frbrgroupid": ["9073346447129513432"]
+    }
+  },
+  "delivery": {
+    "bestlocation": {
+      "isValidUser": true,
+      "organization": "01VAN_INST",
+      "libraryCode": "21NORTH",
+      "availabilityStatus": "available",
+      "subLocation": "Remote",
+      "subLocationCode": "21_NORTH",
+      "mainLocation": "Offsite Storage, Special Collections & Archives",
+      "callNumber": "QH365 .O2 1866",
+      "callNumberType": "0",
+      "holdingURL": "OVP",
+      "adaptorid": "ALMA_01",
+      "ilsApiId": "991038089909703276",
+      "holdId": "22316775330003276",
+      "holKey": "HoldingResultKey [mid=22316775330003276, libraryId=2945299360003276, locationCode=21_NORTH, callNumber=QH365 .O2 1866]",
+      "matchForHoldings": [
+        {
+          "matchOn": "MainLocation",
+          "holdingRecord": "852##b"
+        }
+      ],
+      "stackMapUrl": "",
+      "relatedTitle": null,
+      "yearFilter": null,
+      "volumeFilter": null,
+      "@id": "_:0"
+    },
+    "holding": [
+      {
+        "isValidUser": true,
+        "organization": "01VAN_INST",
+        "libraryCode": "21NORTH",
+        "availabilityStatus": "available",
+        "subLocation": "Remote",
+        "subLocationCode": "21_NORTH",
+        "mainLocation": "Offsite Storage, Special Collections & Archives",
+        "callNumber": "QH365 .O2 1866",
+        "callNumberType": "0",
+        "holdingURL": "OVP",
+        "adaptorid": "ALMA_01",
+        "ilsApiId": "991038089909703276",
+        "holdId": "22316775330003276",
+        "holKey": "HoldingResultKey [mid=22316775330003276, libraryId=2945299360003276, locationCode=21_NORTH, callNumber=QH365 .O2 1866]",
+        "matchForHoldings": [
+          {
+            "matchOn": "MainLocation",
+            "holdingRecord": "852##b"
+          }
+        ],
+        "stackMapUrl": "",
+        "relatedTitle": null,
+        "yearFilter": null,
+        "volumeFilter": null,
+        "@id": "_:0"
+      }
+    ],
+    "electronicServices": null,
+    "quickAccessService": null,
+    "deliveryCategory": ["Alma-P"],
+    "serviceMode": ["ovp"],
+    "availability": ["available_in_library"],
+    "availabilityLinks": ["detailsgetit1"],
+    "availabilityLinksUrl": [],
+    "displayedAvailability": null,
+    "displayLocation": true,
+    "additionalLocations": false,
+    "physicalItemTextCodes": null,
+    "feDisplayOtherLocations": false,
+    "almaInstitutionsList": [],
+    "recordInstitutionCode": null,
+    "recordOwner": "01VAN_INST",
+    "GetIt1": [
+      {
+        "category": "Alma-P",
+        "links": [
+          {
+            "isLinktoOnline": false,
+            "getItTabText": "service_getit",
+            "adaptorid": "ALMA_01",
+            "ilsApiId": "991038089909703276",
+            "link": "OVP",
+            "inst4opac": "01VAN_INST",
+            "displayText": null,
+            "@id": "_:0"
+          }
+        ]
+      }
+    ],
+    "physicalServiceId": null,
+    "link": [
+      {
+        "@id": ":_0",
+        "linkType": "thumbnail",
+        "linkURL": "https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:,OCLC:,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+        "displayLabel": "thumbnail"
+      }
+    ],
+    "hasD": null
+  },
+  "enrichment": {
+    "virtualBrowseObject": {
+      "isVirtualBrowseEnabled": true,
+      "callNumber": "QH365 .O2 1866",
+      "callNumberBrowseField": "0"
+    },
+    "bibVirtualBrowseObject": {
+      "isVirtualBrowseEnabled": true,
+      "callNumber": "qh\"365 o2ǂd228o4 1866",
+      "callNumberBrowseField": "LOC_CL"
+    }
+  }
+}

@@ -43,6 +43,22 @@ describe("hathiTrustAvailabilityController", function () {
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalledWith(expectedIds);
   });
 
+  // VE fails to remove the 035 (ocolc) prefix in its addata normalization rules
+  it("should handle Primo VE's poorly-formatted OCLC numbers", function () {
+    prmSearchResultAvailabilityLine.result = getJSONFixture(
+      "ve_print_result.json"
+    );
+    expectedIds = ["oclc:1185554", "oclc:316173611", "oclc:794832420"];
+    spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
+      then: function (callback) {
+        return callback(true);
+      },
+    });
+    ctrl = $componentController("hathiTrustAvailability", null, bindings);
+    ctrl.$onInit();
+    expect(hathiTrust.findFullViewRecord).toHaveBeenCalledWith(expectedIds);
+  });
+
   it("should update the hathiTrustFullText link if available", function () {
     var link = "http://example.com";
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
