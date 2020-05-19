@@ -4,6 +4,7 @@
   "description": "Adds HathiTrust links to Primo search results",
   "main": "index.js",
   "scripts": {
+    "postversion": "git push && git push --tags",
     "test": "karma start --singleRun",
     "start": "./bin/run"
   },
