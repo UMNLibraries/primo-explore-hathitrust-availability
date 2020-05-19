@@ -119,10 +119,16 @@ angular
         return self.entityId ? link + "?signon=swle:" + self.entityId : link;
       };
 
+      var isOclcNum = function(value) {
+        return value.match(/^(\(ocolc\))?\d+$/i);
+      }
+
       var updateHathiTrustAvailability = function() {
         var hathiTrustIds = (
           self.prmSearchResultAvailabilityLine.result.pnx.addata.oclcid || []
-        ).map(function(id) {
+        )
+        .filter(isOclcNum)
+        .map(function(id) {
           return "oclc:" + id.toLowerCase().replace("(ocolc)", "");
         });
         hathiTrust[self.ignoreCopyright ? "findRecord" : "findFullViewRecord"](

@@ -59,6 +59,25 @@ describe("hathiTrustAvailabilityController", function () {
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalledWith(expectedIds);
   });
 
+  /**
+   * It looks like VE normalization rules copy non-OCLC numbers from the 035 into addata/oclcid.
+   * In cases where the 035 field does not have a prefix, it we treat it as if it were an OCLC ID.
+   */
+  it("should handle spurious OCLC numbers", function () {
+    prmSearchResultAvailabilityLine.result = getJSONFixture(
+      "ve_result_with_invalid_oclcids.json"
+    );
+    expectedIds = ["oclc:286433636", "oclc:5634943"];
+    spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
+      then: function (callback) {
+        return callback(true);
+      },
+    });
+    ctrl = $componentController("hathiTrustAvailability", null, bindings);
+    ctrl.$onInit();
+    expect(hathiTrust.findFullViewRecord).toHaveBeenCalledWith(expectedIds);
+  });
+
   it("should update the hathiTrustFullText link if available", function () {
     var link = "http://example.com";
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({

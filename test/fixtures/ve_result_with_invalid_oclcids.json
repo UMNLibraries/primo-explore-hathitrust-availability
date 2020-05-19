@@ -1,0 +1,160 @@
+{"beaconO22":"880",
+  "context" : "L",
+  "@id" : "https://na02.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9956349434202441",
+  "adaptor" : "Local Search Engine",
+  "pnx" : {
+    "display" : {
+      "source" : [ "Alma" ],
+      "type" : [ "book" ],
+      "language" : [ "eng" ],
+      "title" : [ "On the origin of species " ],
+      "subject" : [ "Evolution (Biology)", "Natural selection" ],
+      "format" : [ "lxv, 453 p. : ill. ; 24 cm." ],
+      "identifier" : [ "$$CLC$$V  2009005861;$$CISBN$$V9780521867092;$$CISBN$$V0521867096;$$COCLC$$V(OCoLC)286433636" ],
+      "creationdate" : [ "2009" ],
+      "creator" : [ "Darwin, Charles, 1809-1882.$$QDarwin, Charles" ],
+      "publisher" : [ "Cambridge, UK ; New York : Cambridge University Press" ],
+      "mms" : [ "9956349434202441" ],
+      "contributor" : [ "Endersby, Jim.$$QEndersby, Jim." ],
+      "contents" : [ "Introduction -- On the Origin of Species -- Appendix 1: An Evolving Origin -- Appendix 2: Biographical Register -- Explanatory Notes -- Bibliography." ],
+      "place" : [ "Cambridge, UK ; New York :" ],
+      "version" : [ "51" ]
+    },
+    "control" : {
+      "sourcerecordid" : [ "9956349434202441" ],
+      "recordid" : [ "alma9956349434202441" ],
+      "sourceid" : "alma",
+      "originalsourceid" : [ "5634943-nwudb" ],
+      "sourcesystem" : [ "ILS" ],
+      "sourceformat" : [ "MARC21" ],
+      "score" : [ "1.0" ]
+    },
+    "addata" : {
+      "aulast" : [ "Darwin" ],
+      "aufirst" : [ "Charles" ],
+      "auinit" : [ "C" ],
+      "au" : [ "Darwin, Charles" ],
+      "addau" : [ "Endersby, Jim." ],
+      "date" : [ "2009" ],
+      "isbn" : [ "9780521867092", "0521867096" ],
+      "notes" : [ "Includes bibliographical references (pages [422]-434) and index." ],
+      "cop" : [ "Cambridge, UK ;" ],
+      "pub" : [ "Cambridge University Press" ],
+      "oclcid" : [ "(ocolc)286433636", "(ien)promptcat (approval) ydx.inu.d091214.appr.bin 00000060", "5634943", "(ien)5634943-nwudb" ],
+      "lccn" : [ "2009005861" ],
+      "format" : [ "book" ],
+      "genre" : [ "book" ],
+      "ristype" : [ "BOOK" ],
+      "btitle" : [ "On the origin of species" ]
+    },
+    "sort" : {
+      "title" : [ "On the origin of species / Charles Darwin ; edited by Jim Endersby." ],
+      "author" : [ "Darwin, Charles, 1809-1882." ],
+      "creationdate" : [ "2009" ]
+    },
+    "facets" : {
+      "frbrtype" : [ "5" ],
+      "frbrgroupid" : [ "9053398522302011445" ]
+    }
+  },
+  "delivery" : {
+    "bestlocation" : {
+      "isValidUser" : true,
+      "organization" : "01NWU_INST",
+      "libraryCode" : "MUDD",
+      "availabilityStatus" : "available",
+      "subLocation" : "Stacks",
+      "subLocationCode" : "nsel",
+      "mainLocation" : "Mudd Library",
+      "callNumber" : "QH365 .O2 2009b",
+      "callNumberType" : "0",
+      "holdingURL" : "OVP",
+      "adaptorid" : "ALMA_01",
+      "ilsApiId" : "9956349434202441",
+      "holdId" : "22442655980002441",
+      "holKey" : "HoldingResultKey [mid=22442655980002441, libraryId=13685220002441, locationCode=nsel, callNumber=QH365 .O2 2009b]",
+      "matchForHoldings" : [ {
+        "matchOn" : "MainLocation",
+        "holdingRecord" : "852##b"
+      } ],
+      "stackMapUrl" : "",
+      "relatedTitle" : null,
+      "yearFilter" : null,
+      "volumeFilter" : null,
+      "@id" : "_:0"
+    },
+    "holding" : [ {
+      "isValidUser" : true,
+      "organization" : "01NWU_INST",
+      "libraryCode" : "MUDD",
+      "availabilityStatus" : "available",
+      "subLocation" : "Stacks",
+      "subLocationCode" : "nsel",
+      "mainLocation" : "Mudd Library",
+      "callNumber" : "QH365 .O2 2009b",
+      "callNumberType" : "0",
+      "holdingURL" : "OVP",
+      "adaptorid" : "ALMA_01",
+      "ilsApiId" : "9956349434202441",
+      "holdId" : "22442655980002441",
+      "holKey" : "HoldingResultKey [mid=22442655980002441, libraryId=13685220002441, locationCode=nsel, callNumber=QH365 .O2 2009b]",
+      "matchForHoldings" : [ {
+        "matchOn" : "MainLocation",
+        "holdingRecord" : "852##b"
+      } ],
+      "stackMapUrl" : "",
+      "relatedTitle" : null,
+      "yearFilter" : null,
+      "volumeFilter" : null,
+      "@id" : "_:0"
+    } ],
+    "electronicServices" : null,
+    "quickAccessService" : null,
+    "deliveryCategory" : [ "Alma-P" ],
+    "serviceMode" : [ "ovp" ],
+    "availability" : [ "available_in_library" ],
+    "availabilityLinks" : [ "detailsgetit1" ],
+    "availabilityLinksUrl" : [ ],
+    "displayedAvailability" : null,
+    "displayLocation" : true,
+    "additionalLocations" : false,
+    "physicalItemTextCodes" : null,
+    "feDisplayOtherLocations" : false,
+    "almaInstitutionsList" : [ ],
+    "recordInstitutionCode" : null,
+    "recordOwner" : "01NWU_INST",
+    "GetIt1" : [ {
+      "category" : "Alma-P",
+      "links" : [ {
+        "isLinktoOnline" : false,
+        "getItTabText" : "service_getit",
+        "adaptorid" : "ALMA_01",
+        "ilsApiId" : "9956349434202441",
+        "link" : "OVP",
+        "inst4opac" : "01NWU_INST",
+        "displayText" : null,
+        "@id" : "_:0"
+      } ]
+    } ],
+    "physicalServiceId" : null,
+    "link" : [ {
+      "@id" : ":_0",
+      "linkType" : "thumbnail",
+      "linkURL" : "https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:0521867096,OCLC:,LCCN:2009005861&jscmd=viewapi&callback=updateGBSCover",
+      "displayLabel" : "thumbnail"
+    } ],
+    "hasD" : null
+  },
+  "enrichment" : {
+    "virtualBrowseObject" : {
+      "isVirtualBrowseEnabled" : true,
+      "callNumber" : "QH365 .O2 2009b",
+      "callNumberBrowseField" : "0"
+    },
+    "bibVirtualBrowseObject" : {
+      "isVirtualBrowseEnabled" : true,
+      "callNumber" : "qh\"365ǂ o2 2009b 0",
+      "callNumberBrowseField" : "LOC_CL"
+    }
+  }
+}
