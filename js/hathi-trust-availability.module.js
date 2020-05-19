@@ -84,20 +84,16 @@ angular
       var self = this;
 
       self.$onInit = function() {
-        setDefaults();
+        if (!self.msg) self.msg = "Full Text Available at HathiTrust";
 
         // prevent appearance/request iff 'hide-online' 
-        if (isOnline() && self.hideOnline) { return; }
+        if (self.hideOnline && isOnline()) { return; }
 
         // prevent appearance/request iff 'hide-if-journal'
-        if (isJournal() && self.hideIfJournal){ return; }
+        if (self.hideIfJournal && isJournal()) { return; }
 
         // look for full text at HathiTrust 
         updateHathiTrustAvailability();
-      };
-
-      var setDefaults = function() {
-        if (!self.msg) self.msg = "Full Text Available at HathiTrust";
       };
 
       var isJournal = function() {
