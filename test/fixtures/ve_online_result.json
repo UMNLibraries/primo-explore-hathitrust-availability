@@ -1,0 +1,98 @@
+{"beaconO22":"305",
+  "context" : "L",
+  "@id" : "https://na02.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9980302645502441",
+  "adaptor" : "Local Search Engine",
+  "pnx" : {
+    "display" : {
+      "source" : [ "Alma" ],
+      "type" : [ "journal" ],
+      "language" : [ "eng" ],
+      "title" : [ "Time (Sydney, N.S.W. : Online)" ],
+      "subject" : [ "Popular culture -- Australia", "Popular culture", "Australia", "Periodicals" ],
+      "identifier" : [ "$$CLC$$V  2006249133;$$COCLC$$V(OCoLC)44811558;$$CISSN$$V0818-0628" ],
+      "creationdate" : [ "1949" ],
+      "publisher" : [ "Sydney, N.S.W. ; New York, N.Y. : Time, Inc.", "Print began in 1949." ],
+      "description" : [ "International and Australian national news, behavior, books, business, cinema, law, education, environment, technology, modern living, music, national, press, religion, theater, video and world." ],
+      "mms" : [ "9980302645502441" ],
+      "addtitle" : [ "Issues for July 21, 1986- have cover title: Time Australia" ],
+      "frequency" : [ "Weekly" ],
+      "genre" : [ "Periodicals." ],
+      "unititle" : [ "Time (Sydney, N.S.W. : Online)" ],
+      "place" : [ "Sydney, N.S.W.] ; New York, N.Y. :" ],
+      "lds07" : [ "Print began in 1949." ],
+      "version" : [ "1" ]
+    },
+    "control" : {
+      "sourcerecordid" : [ "9980302645502441" ],
+      "recordid" : [ "alma9980302645502441" ],
+      "sourceid" : "alma",
+      "originalsourceid" : [ "99963018148843" ],
+      "sourcesystem" : [ "SFX" ],
+      "sourceformat" : [ "MARC21" ],
+      "score" : [ "1.0" ]
+    },
+    "addata" : {
+      "stitle" : [ "TIME AUSTRALIA", "TIME SOUTH PACIFIC (AUSTRALIA/NEW ZEALAND EDITION)", "TIME INTERNATIONAL" ],
+      "addtitle" : [ "Time Australia" ],
+      "date" : [ "1949" ],
+      "issn" : [ "0818-0628" ],
+      "abstract" : [ "International and Australian national news, behavior, books, business, cinema, law, education, environment, technology, modern living, music, national, press, religion, theater, video and world." ],
+      "cop" : [ "Sydney, N.S.W.] ;" ],
+      "pub" : [ "Time, Inc." ],
+      "oclcid" : [ "(ocolc)44811558", "(ckb)963018148843", "(conser)--2006249133" ],
+      "lccn" : [ "2006249133" ],
+      "format" : [ "journal" ],
+      "genre" : [ "journal" ],
+      "ristype" : [ "JOUR" ],
+      "jtitle" : [ "Time (Sydney, N.S.W. : Online)" ]
+    },
+    "sort" : {
+      "title" : [ "Time (Sydney, N.S.W. : Online)" ],
+      "creationdate" : [ "1949" ]
+    },
+    "facets" : {
+      "frbrtype" : [ "6" ],
+      "frbrgroupid" : [ "9005160257513018451" ]
+    }
+  },
+  "delivery" : {
+    "bestlocation" : null,
+    "holding" : null,
+    "electronicServices" : null,
+    "quickAccessService" : null,
+    "deliveryCategory" : [ "Alma-E" ],
+    "serviceMode" : [ "Viewit" ],
+    "availability" : [ "not_restricted" ],
+    "availabilityLinks" : null,
+    "availabilityLinksUrl" : null,
+    "displayedAvailability" : "Not available",
+    "displayLocation" : null,
+    "additionalLocations" : null,
+    "physicalItemTextCodes" : null,
+    "feDisplayOtherLocations" : null,
+    "almaInstitutionsList" : [ ],
+    "recordInstitutionCode" : null,
+    "recordOwner" : "01NWU_INST",
+    "GetIt1" : null,
+    "physicalServiceId" : null,
+    "link" : [ {
+      "@id" : ":_0",
+      "linkType" : "thumbnail",
+      "linkURL" : "https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:,OCLC:,LCCN:2006249133&jscmd=viewapi&callback=updateGBSCover",
+      "displayLabel" : "thumbnail"
+    } ],
+    "hasD" : null
+  },
+  "enrichment" : {
+    "virtualBrowseObject" : {
+      "isVirtualBrowseEnabled" : false,
+      "callNumber" : "",
+      "callNumberBrowseField" : ""
+    },
+    "bibVirtualBrowseObject" : {
+      "isVirtualBrowseEnabled" : true,
+      "callNumber" : "ap 7ǂ t5",
+      "callNumberBrowseField" : "LOC_CL"
+    }
+  }
+}

@@ -106,6 +106,8 @@ angular
       };
 
       var isOnline = function() {
+        var delivery = self.prmSearchResultAvailabilityLine.result.delivery || [];
+        if (!delivery.GetIt1) return delivery.deliveryCategory.indexOf('Alma-E') !== -1;
         return self.prmSearchResultAvailabilityLine.result.delivery.GetIt1.some(
           function(g) {
             return g.links.some(function(l) {

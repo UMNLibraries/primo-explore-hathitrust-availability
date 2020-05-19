@@ -78,6 +78,8 @@ describe("hathiTrustAvailabilityController", function () {
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalledWith(expectedIds);
   });
 
+  
+
   it("should update the hathiTrustFullText link if available", function () {
     var link = "http://example.com";
     spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
@@ -104,7 +106,25 @@ describe("hathiTrustAvailabilityController", function () {
     expect(hathiTrust.findFullViewRecord).toHaveBeenCalled();
   });
 
-  it("should not call the hathiTrust service for online resoureces when disabled", function () {
+  // adding this case to ensure that VE's unique delivery section is handled properly
+  it("should not call the hathiTrust service for online resources when disabled", function () {
+    prmSearchResultAvailabilityLine.result = getJSONFixture(
+      "ve_online_result.json"
+    );
+    spyOn(hathiTrust, "findFullViewRecord").and.returnValue({
+      then: function (callback) {
+        return callback(true);
+      },
+    });
+
+    bindings.hideOnline = true;
+
+    ctrl = $componentController("hathiTrustAvailability", null, bindings);
+    ctrl.$onInit();
+    expect(hathiTrust.findFullViewRecord).not.toHaveBeenCalled();
+  });
+
+  it("should not call the hathiTrust service for online resources when disabled", function () {
     prmSearchResultAvailabilityLine.result = getJSONFixture(
       "online_result.json"
     );
