@@ -1,0 +1,28 @@
+{
+  "oclc:26033214": { "records": [], "items": [] },
+  "oclc:25909689": {
+    "records": {
+      "002543988": {
+        "recordURL": "https://catalog.hathitrust.org/Record/002543988",
+        "titles": ["Libro de los estados"],
+        "isbns": ["9788470395949", "9788470395949"],
+        "issns": [],
+        "oclcs": ["25909689"],
+        "lccns": [],
+        "publishDates": ["1991"]
+      }
+    },
+    "items": [
+      {
+        "orig": "University of Michigan",
+        "fromRecord": "002543988",
+        "htid": "mdp.39015022235058",
+        "itemURL": "https://hdl.handle.net/2027/mdp.39015022235058",
+        "rightsCode": "ic",
+        "lastUpdate": "20161107",
+        "enumcron": false,
+        "usRightsString": "Limited (search-only)"
+      }
+    ]
+  }
+}

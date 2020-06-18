@@ -1,34 +1,34 @@
 angular
-  .module("hathiTrustAvailability", [])
+  .module('hathiTrustAvailability', [])
   .constant(
-    "hathiTrustBaseUrl",
-    "https://catalog.hathitrust.org/api/volumes/brief/json/"
+    'hathiTrustBaseUrl',
+    'https://catalog.hathitrust.org/api/volumes/brief/json/'
   )
   .config([
-    "$sceDelegateProvider",
-    "hathiTrustBaseUrl",
-    function($sceDelegateProvider, hathiTrustBaseUrl) {
+    '$sceDelegateProvider',
+    'hathiTrustBaseUrl',
+    function ($sceDelegateProvider, hathiTrustBaseUrl) {
       var urlWhitelist = $sceDelegateProvider.resourceUrlWhitelist();
-      urlWhitelist.push(hathiTrustBaseUrl + "**");
+      urlWhitelist.push(hathiTrustBaseUrl + '**');
       $sceDelegateProvider.resourceUrlWhitelist(urlWhitelist);
-    }
+    },
   ])
-  .factory("hathiTrust", [
-    "$http",
-    "$q",
-    "hathiTrustBaseUrl",
-    function($http, $q, hathiTrustBaseUrl) {
+  .factory('hathiTrust', [
+    '$http',
+    '$q',
+    'hathiTrustBaseUrl',
+    function ($http, $q, hathiTrustBaseUrl) {
       var svc = {};
 
-      var lookup = function(ids) {
+      var lookup = function (ids) {
         if (ids.length) {
-          var hathiTrustLookupUrl = hathiTrustBaseUrl + ids.join("|");
+          var hathiTrustLookupUrl = hathiTrustBaseUrl + ids.join('|');
           return $http
             .jsonp(hathiTrustLookupUrl, {
               cache: true,
-              jsonpCallbackParam: "callback"
+              jsonpCallbackParam: 'callback',
             })
-            .then(function(resp) {
+            .then(function (resp) {
               return resp.data;
             });
         } else {
@@ -37,30 +37,31 @@ angular
       };
 
       // find a HT record URL for a given list of identifiers (regardless of copyright status)
-      svc.findRecord = function(ids) {
+      svc.findRecord = function (ids) {
         return lookup(ids)
-          .then(function(bibData) {
-            if (bibData && bibData[ids[0]].items.length > 0) {
-              var recordId = Object.keys(bibData[ids[0]].records)[0];
-              return $q.resolve(bibData[ids[0]].records[recordId].recordURL);
-            } else {
-              return $q.resolve(null);
+          .then(function (bibData) {
+            for (var i = 0; i < ids.length; i++) {
+              var recordId = Object.keys(bibData[ids[i]].records)[0];
+              if (recordId) {
+                return $q.resolve(bibData[ids[i]].records[recordId].recordURL);
+              }
             }
+            return $q.resolve(null);
           })
-          .catch(function(e) {
+          .catch(function (e) {
             console.error(e);
           });
       };
 
       // find a public-domain HT record URL for a given list of identifiers
-      svc.findFullViewRecord = function(ids) {
-        var handleResponse = function(bibData) {
+      svc.findFullViewRecord = function (ids) {
+        var handleResponse = function (bibData) {
           var fullTextUrl = null;
           for (var i = 0; !fullTextUrl && i < ids.length; i++) {
             var result = bibData[ids[i]];
             for (var j = 0; j < result.items.length; j++) {
               var item = result.items[j];
-              if (item.usRightsString.toLowerCase() === "full view") {
+              if (item.usRightsString.toLowerCase() === 'full view') {
                 fullTextUrl = result.records[item.fromRecord].recordURL;
                 break;
               }
@@ -70,85 +71,92 @@ angular
         };
         return lookup(ids)
           .then(handleResponse)
-          .catch(function(e) {
+          .catch(function (e) {
             console.error(e);
           });
       };
 
       return svc;
-    }
+    },
   ])
-  .controller("hathiTrustAvailabilityController", [
-    "hathiTrust",
-    function(hathiTrust) {
+  .controller('hathiTrustAvailabilityController', [
+    'hathiTrust',
+    function (hathiTrust) {
       var self = this;
 
-      self.$onInit = function() {
-        if (!self.msg) self.msg = "Full Text Available at HathiTrust";
+      self.$onInit = function () {
+        if (!self.msg) self.msg = 'Full Text Available at HathiTrust';
 
-        // prevent appearance/request iff 'hide-online' 
-        if (self.hideOnline && isOnline()) { return; }
+        // prevent appearance/request iff 'hide-online'
+        if (self.hideOnline && isOnline()) {
+          return;
+        }
 
         // prevent appearance/request iff 'hide-if-journal'
-        if (self.hideIfJournal && isJournal()) { return; }
+        if (self.hideIfJournal && isJournal()) {
+          return;
+        }
 
-        // look for full text at HathiTrust 
+        // look for full text at HathiTrust
         updateHathiTrustAvailability();
       };
 
-      var isJournal = function() {
-        var format =  self.prmSearchResultAvailabilityLine.result.pnx.addata.format[0];
-        return !(format.toLowerCase().indexOf("journal") == -1); // format.includes("Journal")
+      var isJournal = function () {
+        var format =
+          self.prmSearchResultAvailabilityLine.result.pnx.addata.format[0];
+        return !(format.toLowerCase().indexOf('journal') == -1); // format.includes("Journal")
       };
 
-      var isOnline = function() {
-        var delivery = self.prmSearchResultAvailabilityLine.result.delivery || [];
-        if (!delivery.GetIt1) return delivery.deliveryCategory.indexOf('Alma-E') !== -1;
+      var isOnline = function () {
+        var delivery =
+          self.prmSearchResultAvailabilityLine.result.delivery || [];
+        if (!delivery.GetIt1)
+          return delivery.deliveryCategory.indexOf('Alma-E') !== -1;
         return self.prmSearchResultAvailabilityLine.result.delivery.GetIt1.some(
-          function(g) {
-            return g.links.some(function(l) {
+          function (g) {
+            return g.links.some(function (l) {
               return l.isLinktoOnline;
             });
           }
         );
       };
 
-      var formatLink = function(link) {
-        return self.entityId ? link + "?signon=swle:" + self.entityId : link;
+      var formatLink = function (link) {
+        return self.entityId ? link + '?signon=swle:' + self.entityId : link;
       };
 
-      var isOclcNum = function(value) {
+      var isOclcNum = function (value) {
         return value.match(/^(\(ocolc\))?\d+$/i);
-      }
+      };
 
-      var updateHathiTrustAvailability = function() {
+      var updateHathiTrustAvailability = function () {
         var hathiTrustIds = (
           self.prmSearchResultAvailabilityLine.result.pnx.addata.oclcid || []
         )
-        .filter(isOclcNum)
-        .map(function(id) {
-          return "oclc:" + id.toLowerCase().replace("(ocolc)", "");
-        });
-        hathiTrust[self.ignoreCopyright ? "findRecord" : "findFullViewRecord"](
+          .filter(isOclcNum)
+          .map(function (id) {
+            return 'oclc:' + id.toLowerCase().replace('(ocolc)', '');
+          });
+        hathiTrust[self.ignoreCopyright ? 'findRecord' : 'findFullViewRecord'](
           hathiTrustIds
-        ).then(function(res) {
+        ).then(function (res) {
           if (res) self.fullTextLink = formatLink(res);
         });
       };
-    }
+    },
   ])
-  .component("hathiTrustAvailability", {
+  .component('hathiTrustAvailability', {
     require: {
-      prmSearchResultAvailabilityLine: "^prmSearchResultAvailabilityLine"
+      prmSearchResultAvailabilityLine: '^prmSearchResultAvailabilityLine',
     },
     bindings: {
-      entityId: "@",
-      ignoreCopyright: "<",
-      hideIfJournal: "<",
-      hideOnline: "<",
-      msg: "@?"
+      entityId: '@',
+      ignoreCopyright: '<',
+      hideIfJournal: '<',
+      hideOnline: '<',
+      msg: '@?',
     },
-    controller: "hathiTrustAvailabilityController",
+    controller: 'hathiTrustAvailabilityController',
     template:
       '<span ng-if="$ctrl.fullTextLink" class="umnHathiTrustLink">\
                 <md-icon alt="HathiTrust Logo">\
@@ -179,5 +187,5 @@ angular
                 {{ ::$ctrl.msg }}\
                   <prm-icon external-link="" icon-type="svg" svg-icon-set="primo-ui" icon-definition="open-in-new"></prm-icon>\
                 </a>\
-              </span>'
+              </span>',
   });
