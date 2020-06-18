@@ -24,7 +24,8 @@ When search results are displayed, a record's OCLC numbers are passed to the [Ha
     ```
 
 ## Usage
-Once this package is installed, add `hathiTrustAvailability` as a dependency for your custom module definition, and then add the `hathi-trust-availability` directive to the `prmSearchResultAvailabilityLineAfter` component. For example:
+Once this package is installed, create a file 'custom.module.js' and add `hathiTrustAvailability` as a dependency 
+for your custom module definition, and then add the `hathi-trust-availability` directive to the `prmSearchResultAvailabilityLineAfter` component. For example:
 
 ```javascript
 var app = angular.module('viewCustom', ['hathiTrustAvailability']);
@@ -78,6 +79,11 @@ If you're a partner institution and you want the availability links to use Hathi
     entity-id="https://shibboleth.umich.edu/idp/shibboleth"
 ></hathi-trust-availability>
 ```
+
+## Notes
+* If you have custom ccs give it a name other than 'custom1.css' so it is not overwritten.
+* See instructions in [primo-explore-devenv](https://github.com/ExLibrisGroup/primo-explore-devenv) on running locally
+* To deploy: run `gulp create-package` to create a primo compatible package and upload your view in the interface. 
 
 ## Running tests
 1. Clone the repo
