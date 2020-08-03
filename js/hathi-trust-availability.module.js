@@ -97,6 +97,11 @@ angular
           return;
         }
 
+    	// prevent appearance/request if item is unavailable
+    	if (self.ignoreCopyright && !isAvailable()) {
+ 	  return;
+    	}
+
         // look for full text at HathiTrust
         updateHathiTrustAvailability();
       };
@@ -105,6 +110,12 @@ angular
         var format =
           self.prmSearchResultAvailabilityLine.result.pnx.addata.format[0];
         return !(format.toLowerCase().indexOf('journal') == -1); // format.includes("Journal")
+      };
+
+      var isAvailable = function isAvailable() {
+	var available = self.prmSearchResultAvailabilityLine.result.delivery.availability[0];
+	console.log(self.prmSearchResultAvailabilityLine.result.delivery.availability);
+	return (available.toLowerCase().indexOf('unavailable') == -1); 
       };
 
       var isOnline = function () {
