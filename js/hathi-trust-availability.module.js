@@ -114,7 +114,6 @@ angular
 
       var isAvailable = function isAvailable() {
 	var available = self.prmSearchResultAvailabilityLine.result.delivery.availability[0];
-	console.log(self.prmSearchResultAvailabilityLine.result.delivery.availability);
 	return (available.toLowerCase().indexOf('unavailable') == -1); 
       };
 
