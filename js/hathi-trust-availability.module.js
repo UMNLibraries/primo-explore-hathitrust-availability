@@ -99,8 +99,9 @@ angular
 
     	// prevent appearance/request if item is unavailable
     	if (self.ignoreCopyright && !isAvailable()) {
- 	  return;
-    	}
+    	   //allow links for locally unavailable items that are in the public domain
+           self.ignoreCopyright=false;
+        }
 
         // look for full text at HathiTrust
         updateHathiTrustAvailability();
