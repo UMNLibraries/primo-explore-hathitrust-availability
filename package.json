@@ -27,6 +27,6 @@
     "karma-jasmine-jquery": "^0.1.1",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-spec-reporter": "0.0.31",
-    "primo-explore-devenv": "1.0.5"
+    "primo-explore-devenv": "1.1.0"
   }
 }
