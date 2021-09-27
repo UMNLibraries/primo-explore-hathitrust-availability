@@ -1,7 +1,5 @@
 # primo-explore-hathitrust-availability
 
-![Build Status](https://api.travis-ci.org/UMNLibraries/primo-explore-hathitrust-availability.svg?branch=master)
-
 ## Features
 When search results are displayed, a record's OCLC numbers are passed to the [HathiTrust Bib API](https://www.hathitrust.org/bib_api). If at least one item with free full-text access is found, a link to the HathiTrust record is appended to the availability section. 
 
@@ -85,7 +83,8 @@ If you're a partner institution and you want the availability links to use Hathi
 * See instructions in [primo-explore-devenv](https://github.com/ExLibrisGroup/primo-explore-devenv) on running locally
 * To deploy: run `gulp create-package` to create a primo compatible package and upload your view in the interface. 
 
-## Running tests
+## Development
+### Running tests
 1. Clone the repo
 2. Run `npm install`
 3. Run `npm test`
