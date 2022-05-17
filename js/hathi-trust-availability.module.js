@@ -97,11 +97,16 @@ angular
           return;
         }
 
-    	// prevent appearance/request if item is unavailable
-    	if (self.ignoreCopyright && !isAvailable()) {
-    	   //allow links for locally unavailable items that are in the public domain
-           self.ignoreCopyright=false;
+        // prevent appearance/request if item is unavailable
+        if (self.ignoreCopyright && !isAvailable()) {
+          //allow links for locally unavailable items that are in the public domain
+          self.ignoreCopyright = false;
         }
+
+        self.isVE =
+          self.prmSearchResultAvailabilityLine.result['@id'].indexOf(
+            'primaws'
+          ) > -1;
 
         // look for full text at HathiTrust
         updateHathiTrustAvailability();
@@ -114,8 +119,9 @@ angular
       };
 
       var isAvailable = function isAvailable() {
-	var available = self.prmSearchResultAvailabilityLine.result.delivery.availability[0];
-	return (available.toLowerCase().indexOf('unavailable') == -1); 
+        var available =
+          self.prmSearchResultAvailabilityLine.result.delivery.availability[0];
+        return available.toLowerCase().indexOf('unavailable') == -1;
       };
 
       var isOnline = function () {
@@ -137,7 +143,8 @@ angular
       };
 
       var isOclcNum = function (value) {
-        return value.match(/^(\(ocolc\))?\d+$/i);
+        // VE OCLC numbers include the 035 org prefix
+        return self.isVE ? value.match(/^(\(ocolc\))\d+$/i) : true;
       };
 
       var updateHathiTrustAvailability = function () {

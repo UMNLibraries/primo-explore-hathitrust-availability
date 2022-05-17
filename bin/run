@@ -1,7 +1,7 @@
 #!/usr/bin/env bash 
 # Launch a local preview in http://localhost:8003/primo-explore/search?vid=...
 
-#VIEW=01NWU_INST-NULVNEW
+#VIEW="01UMN_INST-TWINCITIES"
 VIEW=CENTRAL_PACKAGE
 CUSTOM_DIR="./node_modules/primo-explore-devenv/primo-explore/custom/$VIEW"
 
@@ -20,9 +20,8 @@ fi
 
 cd ./node_modules/primo-explore-devenv/
 
-npx gulp run \
-  --view "$VIEW" \
-  --proxy 'https://primo.lib.umn.edu'
+#npx gulp run --view "$VIEW" --proxy 'https://umn.primo.exlibrisgroup.com' --ve
+npx gulp run --view "$VIEW" --proxy 'https://primo.lib.umn.edu'
+
 #  --proxy 'https://primo-qa.hosted.exlibrisgroup.com'
 #  --proxy 'https://na02.primo.exlibrisgroup.com:443' \
-#  --ve
