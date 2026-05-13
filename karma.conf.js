@@ -1,5 +1,4 @@
-// Karma configuration
-// Generated on Tue Sep 13 2016 16:33:47 GMT-0500 (CDT)
+process.env.CHROME_BIN = require("puppeteer").executablePath();
 
 module.exports = function(config) {
   config.set({
@@ -63,12 +62,12 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    browsers: ['ChromeHeadless'],
 
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false,
+    singleRun: true,
 
     // Concurrency level
     // how many browser should be started simultaneous
